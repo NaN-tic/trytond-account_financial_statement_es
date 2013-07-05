@@ -6,7 +6,7 @@ import os
 import ConfigParser
 
 MODULE = 'account_financial_statement_es'
-PREFIX = 'nantic'
+PREFIX = 'trytonspain'
 MODULE2PREFIX = {}
 
 
@@ -42,7 +42,7 @@ setup(name='%s_%s' % (PREFIX, MODULE),
     long_description=read('README'),
     author='NaN·tic',
     url='http://www.nan-tic.com/',
-    download_url="https://bitbucket.org/nantic/account_financial_statement_es",
+    download_url="https://bitbucket.org/trytonspain/trytond-account_financial_statement_es",
     package_dir={'trytond.modules.%s' % MODULE: '.'},
     packages=[
         'trytond.modules.%s' % MODULE,
