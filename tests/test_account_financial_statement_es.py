@@ -12,8 +12,7 @@ if os.path.isdir(DIR):
 import unittest
 #import doctest TODO: Remove if no sceneario needed.
 import trytond.tests.test_tryton
-from trytond.tests.test_tryton import test_view, test_depends
-from trytond.backend.sqlite.database import Database as SQLiteDatabase
+from trytond.tests.test_tryton import test_depends
 
 
 class TestCase(unittest.TestCase):
