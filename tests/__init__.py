@@ -3,3 +3,5 @@
 #the full copyright notices and license terms.
 from .test_account_financial_statement_es import suite
 
+
+__all__ = ['suite']
