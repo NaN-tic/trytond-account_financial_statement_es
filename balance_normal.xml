@@ -969,8 +969,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_balance_normal"/>
             <field name="code">21700</field>
             <field name="name">VII. Resultado del ejercicio</field>
-            <field name="current_value">129</field>
-            <field name="previous_value">129</field>
+            <field name="current_value">129,6,7</field>
+            <field name="previous_value">129,6,7</field>
             <field name="parent" ref="es_balance_normal_21000"/>
             <field name="sequence">B2.1/15</field>
             <field name="css_class">l3</field>
