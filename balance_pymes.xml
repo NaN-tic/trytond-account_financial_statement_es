@@ -5,6 +5,7 @@
             <field name="name">BALANCE PYMES (PGCE 2008)</field>
             <field name="type">system</field>
             <field name="mode">credit-debit</field>
+            <field name="cumulate" eval="True"/>
             <field name="description">
 Balance de PYMES al cierre del ejercicio, según Plan General Contable Español para Pequeñas Y Medianas Empresas, para el depósito de cuentas anuales en el registro mercantil.
 

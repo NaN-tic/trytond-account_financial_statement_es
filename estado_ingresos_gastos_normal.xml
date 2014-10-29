@@ -5,6 +5,7 @@
 			<field name="name">ESTADO DE INGRESOS Y GASTOS RECONOCIDOS NORMAL (PGCE 2008)</field>
 			<field name="type">system</field>
 			<field name="mode">credit-debit</field>
+            <field name="cumulate" eval="True"/>
 			<field name="description">
 Estado de Ingresos y Gastos Reconocidos Normal al cierre del ejercicio, según Plan General Contable Español para el depósito de cuentas anuales en el registro mercantil.
 
