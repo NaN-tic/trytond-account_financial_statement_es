@@ -153,8 +153,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_balance_normal"/>
             <field name="code">11220</field>
             <field name="name">2. Instalaciones técnicas y otro inmovilizado material</field>
-            <field name="current_value">212,213,214,215,216,217,218,219,(2812),(2813),(2814),(2815),(2816),(2817),(2818),(2819),(2912),(2913),(2914),(2915),(2916),(2917),(2918),(2919)</field>
-            <field name="previous_value">212,213,214,215,216,217,218,219,(2812),(2813),(2814),(2815),(2816),(2817),(2818),(2819),(2912),(2913),(2914),(2915),(2916),(2917),(2918),(2919)</field>
+            <field name="current_value">212,213,214,215,216,217,218,219,(2810),(2812),(2813),(2814),(2815),(2816),(2817),(2818),(2819),(2912),(2913),(2914),(2915),(2916),(2917),(2918),(2919)</field>
+            <field name="previous_value">212,213,214,215,216,217,218,219,(2810),(2812),(2813),(2814),(2815),(2816),(2817),(2818),(2819),(2912),(2913),(2914),(2915),(2916),(2917),(2918),(2919)</field>
             <field name="negate" eval="True"/>
             <field name="parent" ref="es_balance_normal_11200"/>
             <field name="sequence">B1.1/11</field>
