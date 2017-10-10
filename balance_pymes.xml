@@ -47,8 +47,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_balance_pymes"/>
             <field name="code">11100</field>
             <field name="name">I. Inmovilizado intangible.</field>
-            <field name="current_value">20,(280),(290)</field>
-            <field name="previous_value">20,(280),(290)</field>
+            <field name="current_value">balance(20) + invert(280,290)</field>
+            <field name="previous_value">balance(20) + invert(280,290)</field>
             <field name="negate" eval="True"/>
             <field name="parent" ref="es_balance_pymes_11000"/>
             <field name="visible" eval="True"/>
@@ -59,8 +59,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_balance_pymes"/>
             <field name="code">11200</field>
             <field name="name">II. Inmovilizado material</field>
-            <field name="current_value">21,(281),(291),23</field>
-            <field name="previous_value">21,(281),(291),23</field>
+            <field name="current_value">balance(21,23) + invert(281,291)</field>
+            <field name="previous_value">balance(21,23) + invert(281,291)</field>
             <field name="negate" eval="True"/>
             <field name="parent" ref="es_balance_pymes_11000"/>
             <field name="visible" eval="True"/>
@@ -71,8 +71,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_balance_pymes"/>
             <field name="code">11300</field>
             <field name="name">III. Inversiones inmobiliarias</field>
-            <field name="current_value">22,(282),(292)</field>
-            <field name="previous_value">22,(282),(292)</field>
+            <field name="current_value">balance(22) + invert(282,292)</field>
+            <field name="previous_value">balance(22) + invert(282,292)</field>
             <field name="negate" eval="True"/>
             <field name="parent" ref="es_balance_pymes_11000"/>
             <field name="visible" eval="True"/>
@@ -83,8 +83,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_balance_pymes"/>
             <field name="code">11400</field>
             <field name="name">IV. Inversiones en empresas del grupo y asociadas a largo plazo</field>
-            <field name="current_value">2403,2404,2413,2414,2423,2424,(2493),(2494),(2933),(2934),(2943),(2944),(2953),(2954)</field>
-            <field name="previous_value">2403,2404,2413,2414,2423,2424,(2493),(2494),(2933),(2934),(2943),(2944),(2953),(2954)</field>
+            <field name="current_value">balance(2403,2404,2413,2414,2423,2424) + invert(2493,2494,2933,2934,2943,2944,2953,2954)</field>
+            <field name="previous_value">balance(2403,2404,2413,2414,2423,2424) + invert(2493,2494,2933,2934,2943,2944,2953,2954)</field>
             <field name="negate" eval="True"/>
             <field name="parent" ref="es_balance_pymes_11000"/>
             <field name="visible" eval="True"/>
@@ -95,8 +95,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_balance_pymes"/>
             <field name="code">11500</field>
             <field name="name">V. Inversiones financieras a largo plazo</field>
-            <field name="current_value">2405,2415,2425,(2495),250,251,252,253,254,255,258,(259),26,(2935),(2945),(2955),(296),(297),(298)</field>
-            <field name="previous_value">2405,2415,2425,(2495),250,251,252,253,254,255,258,(259),26,(2935),(2945),(2955),(296),(297),(298)</field>
+            <field name="current_value">balance(2405,2415,2425,250,251,252,253,254,255,258,26) + invert(2495,259,2935,2945,2955,296,297,298)</field>
+            <field name="previous_value">balance(2405,2415,2425,250,251,252,253,254,255,258,26) + invert(2495,259,2935,2945,2955,296,297,298)</field>
             <field name="negate" eval="True"/>
             <field name="parent" ref="es_balance_pymes_11000"/>
             <field name="visible" eval="True"/>
@@ -107,8 +107,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_balance_pymes"/>
             <field name="code">11600</field>
             <field name="name">VI. Activos por impuesto diferido</field>
-            <field name="current_value">474</field>
-            <field name="previous_value">474</field>
+            <field name="current_value">balance(474)</field>
+            <field name="previous_value">balance(474)</field>
             <field name="negate" eval="True"/>
             <field name="parent" ref="es_balance_pymes_11000"/>
             <field name="visible" eval="True"/>
@@ -141,8 +141,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_balance_pymes"/>
             <field name="code">12200</field>
             <field name="name">I. Existencias</field>
-            <field name="current_value">30,31,32,33,34,35,36,(39),407</field>
-            <field name="previous_value">30,31,32,33,34,35,36,(39),407</field>
+            <field name="current_value">balance(30,31,32,33,34,35,36,407) + invert(39)</field>
+            <field name="previous_value">balance(30,31,32,33,34,35,36,407) + invert(39)</field>
             <field name="negate" eval="True"/>
             <field name="parent" ref="es_balance_pymes_12000"/>
             <field name="visible" eval="True"/>
@@ -164,8 +164,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_balance_pymes"/>
             <field name="code">12380</field>
             <field name="name">1. Clientes por ventas y prestaciones de servicios</field>
-            <field name="current_value">430,431,432,433,434,435,436,(437),(490),(493)</field>
-            <field name="previous_value">430,431,432,433,434,435,436,(437),(490),(493)</field>
+            <field name="current_value">balance(430,431,432,433,434,435,436) + invert(437,490,493)</field>
+            <field name="previous_value">balance(430,431,432,433,434,435,436) + invert(437,490,493)</field>
             <field name="negate" eval="True"/>
             <field name="parent" ref="es_balance_pymes_12300"/>
             <field name="visible" eval="True"/>
@@ -198,8 +198,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_balance_pymes"/>
             <field name="code">12370</field>
             <field name="name">2. Accionistas (socios) por desembolsos exigidos</field>
-            <field name="current_value">5580</field>
-            <field name="previous_value">5580</field>
+            <field name="current_value">balance(5580)</field>
+            <field name="previous_value">balance(5580)</field>
             <field name="negate" eval="True"/>
             <field name="parent" ref="es_balance_pymes_12300"/>
             <field name="visible" eval="True"/>
@@ -210,8 +210,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_balance_pymes"/>
             <field name="code">12390</field>
             <field name="name">3. Otros deudores</field>
-            <field name="current_value">44,460,470,471,472,473,544</field>
-            <field name="previous_value">44,460,470,471,472,473,544</field>
+            <field name="current_value">balance(44,460,470,471,472,473,544)</field>
+            <field name="previous_value">balance(44,460,470,471,472,473,544)</field>
             <field name="negate" eval="True"/>
             <field name="parent" ref="es_balance_pymes_12300"/>
             <field name="visible" eval="True"/>
@@ -223,8 +223,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_balance_pymes"/>
             <field name="code">12400</field>
             <field name="name">III. Inversiones en empresas del grupo y asociadas a corto plazo</field>
-            <field name="current_value">5303,5304,5313,5314,5323,5324,5333,5334,5343,5344,5353,5354,(5393),(5394),debit(5523),debit(5524),(5933),(5934),(5943),(5944),(5953),(5954)</field>
-            <field name="previous_value">5303,5304,5313,5314,5323,5324,5333,5334,5343,5344,5353,5354,(5393),(5394),debit(5523),debit(5524),(5933),(5934),(5943),(5944),(5953),(5954)</field>
+            <field name="current_value">balance(5303,5304,5313,5314,5323,5324,5333,5334,5343,5344,5353,5354) + invert(5393,5394,5933,5934,5943,5944,5953,5954) + debit(5523,5524)</field>
+            <field name="previous_value">balance(5303,5304,5313,5314,5323,5324,5333,5334,5343,5344,5353,5354) + invert(5393,5394,5933,5934,5943,5944,5953,5954) + debit(5523,5524)</field>
             <field name="negate" eval="True"/>
             <field name="parent" ref="es_balance_pymes_12000"/>
             <field name="visible" eval="True"/>
@@ -235,8 +235,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_balance_pymes"/>
             <field name="code">12500</field>
             <field name="name">IV. Inversiones financieras a corto plazo</field>
-            <field name="current_value">5305,5315,5325,5335,5345,5355,(5395),540,541,542,543,545,546,547,548,(549),debit(550),debit(551),debit(554),debit(5525),5590,565,566,(5935),(5945),(5955),(596),(597),(598)</field>
-            <field name="previous_value">5305,5315,5325,5335,5345,5355,(5395),540,541,542,543,545,546,547,548,(549),debit(550),debit(551),debit(554),debit(5525),5590,565,566,(5935),(5945),(5955),(596),(597),(598)</field>
+            <field name="current_value">balance(5305,5315,5325,5335,5345,5355,540,541,542,543,545,546,547,548,5590,565,566) + invert(5395,549,5935,5945,5955,596,597,598) + debit(550,551,554,5525)</field>
+            <field name="previous_value">balance(5305,5315,5325,5335,5345,5355,540,541,542,543,545,546,547,548,5590,565,566) + invert(5395,549,5935,5945,5955,596,597,598) + debit(550,551,554,5525)</field>
             <field name="negate" eval="True"/>
             <field name="parent" ref="es_balance_pymes_12000"/>
             <field name="visible" eval="True"/>
@@ -247,8 +247,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_balance_pymes"/>
             <field name="code">12600</field>
             <field name="name">V. Periodificaciones a corto plazo</field>
-            <field name="current_value">480,567</field>
-            <field name="previous_value">480,567</field>
+            <field name="current_value">balance(480,567)</field>
+            <field name="previous_value">balance(480,567)</field>
             <field name="negate" eval="True"/>
             <field name="parent" ref="es_balance_pymes_12000"/>
             <field name="visible" eval="True"/>
@@ -259,8 +259,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_balance_pymes"/>
             <field name="code">12700</field>
             <field name="name">VI. Efectivo y otros activos líquidos equivalentes</field>
-            <field name="current_value">57</field>
-            <field name="previous_value">57</field>
+            <field name="current_value">balance(57)</field>
+            <field name="previous_value">balance(57)</field>
             <field name="negate" eval="True"/>
             <field name="parent" ref="es_balance_pymes_12000"/>
             <field name="visible" eval="True"/>
@@ -271,8 +271,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_balance_pymes"/>
             <field name="code">10000</field>
             <field name="name">TOTAL ACTIVO (A + B)</field>
-            <field name="current_value">11000+12000</field>
-            <field name="previous_value">11000+12000</field>
+            <field name="current_value">concept(11000,12000)</field>
+            <field name="previous_value">concept(11000,12000)</field>
             <field name="visible" eval="True"/>
             <field name="sequence">BP1/21</field>
             <field name="css_class">l1</field>
@@ -313,8 +313,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_balance_pymes"/>
             <field name="code">21110</field>
             <field name="name">1. Capital escriturado</field>
-            <field name="current_value">100,101,102</field>
-            <field name="previous_value">100,101,102</field>
+            <field name="current_value">balance(100,101,102)</field>
+            <field name="previous_value">balance(100,101,102)</field>
             <field name="parent" ref="es_balance_pymes_21100"/>
             <field name="visible" eval="True"/>
             <field name="sequence">BP2.1/04</field>
@@ -324,8 +324,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_balance_pymes"/>
             <field name="code">21120</field>
             <field name="name">2. (Capital no exigido)</field>
-            <field name="current_value">(1030),(1040)</field>
-            <field name="previous_value">(1030),(1040)</field>
+            <field name="current_value">invert(1030,1040)</field>
+            <field name="previous_value">invert(1030,1040)</field>
             <field name="parent" ref="es_balance_pymes_21100"/>
             <field name="visible" eval="True"/>
             <field name="sequence">BP2.1/05</field>
@@ -335,8 +335,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_balance_pymes"/>
             <field name="code">21200</field>
             <field name="name">II. Prima de emisión</field>
-            <field name="current_value">110</field>
-            <field name="previous_value">110</field>
+            <field name="current_value">balance(110)</field>
+            <field name="previous_value">balance(110)</field>
             <field name="parent" ref="es_balance_pymes_21000"/>
             <field name="visible" eval="True"/>
             <field name="sequence">BP2.1/06</field>
@@ -346,8 +346,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_balance_pymes"/>
             <field name="code">21300</field>
             <field name="name">III. Reservas</field>
-            <field name="current_value">112,113,114,119</field>
-            <field name="previous_value">112,113,114,119</field>
+            <field name="current_value">balance(112,113,114,119)</field>
+            <field name="previous_value">balance(112,113,114,119)</field>
             <field name="parent" ref="es_balance_pymes_21000"/>
             <field name="visible" eval="True"/>
             <field name="sequence">BP2.1/07</field>
@@ -357,8 +357,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_balance_pymes"/>
             <field name="code">21400</field>
             <field name="name">IV. (Acciones y participaciones en patrimonio propias)</field>
-            <field name="current_value">(108),(109)</field>
-            <field name="previous_value">(108),(109)</field>
+            <field name="current_value">invert(108,109)</field>
+            <field name="previous_value">invert(108,109)</field>
             <field name="parent" ref="es_balance_pymes_21000"/>
             <field name="visible" eval="True"/>
             <field name="sequence">BP2.1/08</field>
@@ -368,8 +368,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_balance_pymes"/>
             <field name="code">21500</field>
             <field name="name">V. Resultados de ejercicios anteriores</field>
-            <field name="current_value">120,(121)</field>
-            <field name="previous_value">120,(121)</field>
+            <field name="current_value">balance(120) + invert(121)</field>
+            <field name="previous_value">balance(120) + invert(121)</field>
             <field name="parent" ref="es_balance_pymes_21000"/>
             <field name="visible" eval="True"/>
             <field name="sequence">BP2.1/09</field>
@@ -379,8 +379,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_balance_pymes"/>
             <field name="code">21600</field>
             <field name="name">VI. Otras aportaciones de socios</field>
-            <field name="current_value">118</field>
-            <field name="previous_value">118</field>
+            <field name="current_value">balance(118)</field>
+            <field name="previous_value">balance(118)</field>
             <field name="parent" ref="es_balance_pymes_21000"/>
             <field name="visible" eval="True"/>
             <field name="sequence">BP2.1/10</field>
@@ -390,8 +390,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_balance_pymes"/>
             <field name="code">21700</field>
             <field name="name">VII. Resultado del ejercicio</field>
-            <field name="current_value">129,6,7</field>
-            <field name="previous_value">129,6,7</field>
+            <field name="current_value">balance(129,6,7)</field>
+            <field name="previous_value">balance(129,6,7)</field>
             <field name="parent" ref="es_balance_pymes_21000"/>
             <field name="visible" eval="True"/>
             <field name="sequence">BP2.1/11</field>
@@ -401,8 +401,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_balance_pymes"/>
             <field name="code">21800</field>
             <field name="name">VIII. (Dividendo a cuenta)</field>
-            <field name="current_value">(557)</field>
-            <field name="previous_value">(557)</field>
+            <field name="current_value">invert(557)</field>
+            <field name="previous_value">invert(557)</field>
             <field name="parent" ref="es_balance_pymes_21000"/>
             <field name="visible" eval="True"/>
             <field name="sequence">BP2.1/12</field>
@@ -412,8 +412,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_balance_pymes"/>
             <field name="code">22000</field>
             <field name="name">A-2) Ajustes en patrimonio neto</field>
-            <field name="current_value">137;NECA 5.a 9</field>
-            <field name="previous_value">137;NECA 5.a 9</field>
+            <field name="current_value">balance(137);NECA 5.a 9</field>
+            <field name="previous_value">balance(137);NECA 5.a 9</field>
             <field name="parent" ref="es_balance_pymes_20000"/>
             <field name="visible" eval="True"/>
             <field name="sequence">BP2.1/13</field>
@@ -423,8 +423,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_balance_pymes"/>
             <field name="code">23000</field>
             <field name="name">A-3) Subvenciones, donaciones y legados recibidos</field>
-            <field name="current_value">130,131,132</field>
-            <field name="previous_value">130,131,132</field>
+            <field name="current_value">balance(130,131,132)</field>
+            <field name="previous_value">balance(130,131,132)</field>
             <field name="parent" ref="es_balance_pymes_20000"/>
             <field name="visible" eval="True"/>
             <field name="sequence">BP2.1/14</field>
@@ -444,8 +444,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_balance_pymes"/>
             <field name="code">31100</field>
             <field name="name">I. Provisiones a largo plazo</field>
-            <field name="current_value">14</field>
-            <field name="previous_value">14</field>
+            <field name="current_value">balance(14)</field>
+            <field name="previous_value">balance(14)</field>
             <field name="parent" ref="es_balance_pymes_31000"/>
             <field name="visible" eval="True"/>
             <field name="sequence">BP2.1/16</field>
@@ -466,8 +466,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_balance_pymes"/>
             <field name="code">31220</field>
             <field name="name">1. Deudas con entidades de crédito</field>
-            <field name="current_value">1605,170</field>
-            <field name="previous_value">1605,170</field>
+            <field name="current_value">balance(1605,170)</field>
+            <field name="previous_value">balance(1605,170)</field>
             <field name="parent" ref="es_balance_pymes_31200"/>
             <field name="visible" eval="True"/>
             <field name="sequence">BP2.1/18</field>
@@ -477,8 +477,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_balance_pymes"/>
             <field name="code">31230</field>
             <field name="name">2. Acreedores por arrendamiento financiero</field>
-            <field name="current_value">1625,174</field>
-            <field name="previous_value">1625,174</field>
+            <field name="current_value">balance(1625,174)</field>
+            <field name="previous_value">balance(1625,174)</field>
             <field name="parent" ref="es_balance_pymes_31200"/>
             <field name="visible" eval="True"/>
             <field name="sequence">BP2.1/19</field>
@@ -488,8 +488,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_balance_pymes"/>
             <field name="code">31290</field>
             <field name="name">3. Otras deudas a largo plazo</field>
-            <field name="current_value">1615,1635,171,172,173,175,176,177,179,180,185</field>
-            <field name="previous_value">1615,1635,171,172,173,175,176,177,179,180,185</field>
+            <field name="current_value">balance(1615,1635,171,172,173,175,176,177,179,180,185)</field>
+            <field name="previous_value">balance(1615,1635,171,172,173,175,176,177,179,180,185)</field>
             <field name="parent" ref="es_balance_pymes_31200"/>
             <field name="visible" eval="True"/>
             <field name="sequence">BP2.1/20</field>
@@ -499,8 +499,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_balance_pymes"/>
             <field name="code">31300</field>
             <field name="name">III. Deudas con empresas del grupo y asociadas a largo plazo</field>
-            <field name="current_value">1603,1604,1613,1614,1623,1624,1633,1634</field>
-            <field name="previous_value">1603,1604,1613,1614,1623,1624,1633,1634</field>
+            <field name="current_value">balance(1603,1604,1613,1614,1623,1624,1633,1634)</field>
+            <field name="previous_value">balance(1603,1604,1613,1614,1623,1624,1633,1634)</field>
             <field name="parent" ref="es_balance_pymes_31000"/>
             <field name="visible" eval="True"/>
             <field name="sequence">BP2.1/21</field>
@@ -510,8 +510,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_balance_pymes"/>
             <field name="code">31400</field>
             <field name="name">IV. Pasivos por impuesto diferido</field>
-            <field name="current_value">479</field>
-            <field name="previous_value">479</field>
+            <field name="current_value">balance(479)</field>
+            <field name="previous_value">balance(479)</field>
             <field name="parent" ref="es_balance_pymes_31000"/>
             <field name="visible" eval="True"/>
             <field name="sequence">BP2.1/22</field>
@@ -521,8 +521,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_balance_pymes"/>
             <field name="code">31500</field>
             <field name="name">V. Periodificaciones a largo plazo</field>
-            <field name="current_value">181</field>
-            <field name="previous_value">181</field>
+            <field name="current_value">balance(181)</field>
+            <field name="previous_value">balance(181)</field>
             <field name="parent" ref="es_balance_pymes_31000"/>
             <field name="visible" eval="True"/>
             <field name="sequence">BP2.1/23</field>
@@ -543,8 +543,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_balance_pymes"/>
             <field name="code">31700</field>
             <field name="name">VII. Deuda con características especiales a largo plazo</field>
-            <field name="current_value">15,(5585);NECA 5.a 12</field>
-            <field name="previous_value">15,(5585);NECA 5.a 12</field>
+            <field name="current_value">balance(15) + invert(5585);NECA 5.a 12</field>
+            <field name="previous_value">balance(15) + invert(5585);NECA 5.a 12</field>
             <field name="parent" ref="es_balance_pymes_31000"/>
             <field name="visible" eval="True"/>
             <field name="sequence">BP2.1/25</field>
@@ -564,8 +564,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_balance_pymes"/>
             <field name="code">32200</field>
             <field name="name">I. Provisiones a corto plazo</field>
-            <field name="current_value">499,529</field>
-            <field name="previous_value">499,529</field>
+            <field name="current_value">balance(499,529)</field>
+            <field name="previous_value">balance(499,529)</field>
             <field name="parent" ref="es_balance_pymes_32000"/>
             <field name="visible" eval="True"/>
             <field name="sequence">BP2.2/02</field>
@@ -586,8 +586,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_balance_pymes"/>
             <field name="code">32320</field>
             <field name="name">1. Deudas con entidades de crédito</field>
-            <field name="current_value">5105,520,527</field>
-            <field name="previous_value">5105,520,527</field>
+            <field name="current_value">balance(5105,520,527)</field>
+            <field name="previous_value">balance(5105,520,527)</field>
             <field name="parent" ref="es_balance_pymes_32300"/>
             <field name="visible" eval="True"/>
             <field name="sequence">BP2.2/04</field>
@@ -597,8 +597,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_balance_pymes"/>
             <field name="code">32330</field>
             <field name="name">2. Acreedores por arrendamiento financiero</field>
-            <field name="current_value">5125,524</field>
-            <field name="previous_value">5125,524</field>
+            <field name="current_value">balance(5125,524)</field>
+            <field name="previous_value">balance(5125,524)</field>
             <field name="parent" ref="es_balance_pymes_32300"/>
             <field name="visible" eval="True"/>
             <field name="sequence">BP2.2/05</field>
@@ -608,8 +608,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_balance_pymes"/>
             <field name="code">32390</field>
             <field name="name">3. Otras deudas a corto plazo</field>
-            <field name="current_value">(1034),(1044),(190),(192),194,500,505,506,509,5115,5135,5145,521,522,523,525,526,528,credit(550),credit(551),credit(554),credit(5525),555,5565,5566,5595,560,561</field>
-            <field name="previous_value">(1034),(1044),(190),(192),194,500,505,506,509,5115,5135,5145,521,522,523,525,526,528,credit(550),credit(551),credit(554),credit(5525),555,5565,5566,5595,560,561</field>
+            <field name="current_value">invert(1034,1044,190,192) + balance(194,500,505,506,509,5115,5135,5145,521,522,523,525,526,528,555,5565,5566,5595,560,561) + credit(550,551,554,5525)</field>
+            <field name="previous_value">invert(1034,1044,190,192) + balance(194,500,505,506,509,5115,5135,5145,521,522,523,525,526,528,555,5565,5566,5595,560,561) + credit(550,551,554,5525)</field>
             <field name="parent" ref="es_balance_pymes_32300"/>
             <field name="visible" eval="True"/>
             <field name="sequence">BP2.2/06</field>
@@ -619,8 +619,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_balance_pymes"/>
             <field name="code">32400</field>
             <field name="name">III. Deudas con empresas del grupo y asociadas a corto plazo</field>
-            <field name="current_value">5103,5104,5113,5114,5123,5124,5133,5134,5143,5144,credit(5523),credit(5524),5563,5564</field>
-            <field name="previous_value">5103,5104,5113,5114,5123,5124,5133,5134,5143,5144,credit(5523),credit(5524),5563,5564</field>
+            <field name="current_value">balance(5103,5104,5113,5114,5123,5124,5133,5134,5143,5144,5563,5564) + credit(5523,5524)</field>
+            <field name="previous_value">balance(5103,5104,5113,5114,5123,5124,5133,5134,5143,5144,5563,5564) + credit(5523,5524)</field>
             <field name="parent" ref="es_balance_pymes_32000"/>
             <field name="visible" eval="True"/>
             <field name="sequence">BP2.2/07</field>
@@ -641,8 +641,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_balance_pymes"/>
             <field name="code">32580</field>
             <field name="name">1. Proveedores</field>
-            <field name="current_value">400,401,403,404,405,(406)</field>
-            <field name="previous_value">400,401,403,404,405,(406)</field>
+            <field name="current_value">balance(400,401,403,404,405) + invert(406)</field>
+            <field name="previous_value">balance(400,401,403,404,405) + invert(406)</field>
             <field name="parent" ref="es_balance_pymes_32500"/>
             <field name="visible" eval="True"/>
             <field name="sequence">BP2.2/09</field>
@@ -674,8 +674,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_balance_pymes"/>
             <field name="code">32590</field>
             <field name="name">2. Otros acreedores</field>
-            <field name="current_value">41,438,465,475,476,477</field>
-            <field name="previous_value">41,438,465,475,476,477</field>
+            <field name="current_value">balance(41,438,465,475,476,477)</field>
+            <field name="previous_value">balance(41,438,465,475,476,477)</field>
             <field name="parent" ref="es_balance_pymes_32500"/>
             <field name="visible" eval="True"/>
             <field name="sequence">BP2.2/12</field>
@@ -685,8 +685,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_balance_pymes"/>
             <field name="code">32600</field>
             <field name="name">V. Periodificaciones a corto plazo</field>
-            <field name="current_value">485,568</field>
-            <field name="previous_value">485,568</field>
+            <field name="current_value">balance(485,568)</field>
+            <field name="previous_value">balance(485,568)</field>
             <field name="parent" ref="es_balance_pymes_32000"/>
             <field name="visible" eval="True"/>
             <field name="sequence">BP2.2/13</field>
@@ -696,8 +696,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_balance_pymes"/>
             <field name="code">32700</field>
             <field name="name">VI. Deuda con características especiales a corto plazo</field>
-            <field name="current_value">(195),(197),199,502,507</field>
-            <field name="previous_value">(195),(197),199,502,507;NECA 5.a 12</field>
+            <field name="current_value">invert(195,197) + balance(199,502,507)</field>
+            <field name="previous_value">invert(195,197) + balance(199,502,507);NECA 5.a 12</field>
             <field name="parent" ref="es_balance_pymes_32000"/>
             <field name="visible" eval="True"/>
             <field name="sequence">BP2.2/14</field>
@@ -707,8 +707,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_balance_pymes"/>
             <field name="code">30000</field>
             <field name="name">TOTAL PATRIMONIO NETO Y PASIVO (A + B + C)</field>
-            <field name="current_value">20000+31000+32000</field>
-            <field name="previous_value">20000+31000+32000</field>
+            <field name="current_value">concept(20000,31000,32000)</field>
+            <field name="previous_value">concept(20000,31000,32000)</field>
             <field name="visible" eval="True"/>
             <field name="sequence">BP2.2/15</field>
             <field name="css_class">l1</field>
