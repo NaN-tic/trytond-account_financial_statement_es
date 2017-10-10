@@ -37,6 +37,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="name">A) OPERACIONES CONTINUADAS</field>
             <field name="current_value"></field>
             <field name="previous_value"></field>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.1/01</field>
             <field name="css_class">l1</field>
         </record>
@@ -47,6 +48,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="current_value"></field>
             <field name="previous_value"></field>
             <field name="parent" ref="es_pyg_normal_a"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.1/02</field>
             <field name="css_class">l3</field>
         </record>
@@ -57,6 +59,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="current_value">700,701,702,703,704,(706),(708),(709)</field>
             <field name="previous_value">700,701,702,703,704,(706),(708),(709)</field>
             <field name="parent" ref="es_pyg_normal_40100"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.1/03</field>
             <field name="css_class">l4</field>
         </record>
@@ -67,6 +70,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="current_value">705</field>
             <field name="previous_value">705</field>
             <field name="parent" ref="es_pyg_normal_40100"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.1/04</field>
             <field name="css_class">l4</field>
         </record>
@@ -77,6 +81,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="current_value">(6930),71*,7930</field>
             <field name="previous_value">(6930),71*,7930</field>
             <field name="parent" ref="es_pyg_normal_a"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.1/05</field>
             <field name="css_class">l3</field>
         </record>
@@ -87,6 +92,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="current_value">73</field>
             <field name="previous_value">73</field>
             <field name="parent" ref="es_pyg_normal_a"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.1/06</field>
             <field name="css_class">l3</field>
         </record>
@@ -97,6 +103,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="current_value"></field>
             <field name="previous_value"></field>
             <field name="parent" ref="es_pyg_normal_a"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.1/07</field>
             <field name="css_class">l3</field>
         </record>
@@ -107,6 +114,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="current_value">(600),6060,6080,6090,610*</field>
             <field name="previous_value">(600),6060,6080,6090,610*</field>
             <field name="parent" ref="es_pyg_normal_40400"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.1/08</field>
             <field name="css_class">l4</field>
         </record>
@@ -117,6 +125,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="current_value">(601),(602),6061,6062,6081,6082,6091,6092,611*,612*</field>
             <field name="previous_value">(601),(602),6061,6062,6081,6082,6091,6092,611*,612*</field>
             <field name="parent" ref="es_pyg_normal_40400"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.1/09</field>
             <field name="css_class">l4</field>
         </record>
@@ -127,6 +136,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="current_value">(607)</field>
             <field name="previous_value">(607)</field>
             <field name="parent" ref="es_pyg_normal_40400"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.1/10</field>
             <field name="css_class">l4</field>
         </record>
@@ -137,6 +147,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="current_value">(6931),(6932),(6933),7931,7932,7933</field>
             <field name="previous_value">(6931),(6932),(6933),7931,7932,7933</field>
             <field name="parent" ref="es_pyg_normal_40400"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.1/11</field>
             <field name="css_class">l4</field>
         </record>
@@ -147,6 +158,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="current_value"></field>
             <field name="previous_value"></field>
             <field name="parent" ref="es_pyg_normal_a"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.1/12</field>
             <field name="css_class">l3</field>
         </record>
@@ -157,6 +169,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="current_value">75</field>
             <field name="previous_value">75</field>
             <field name="parent" ref="es_pyg_normal_40500"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.1/13</field>
             <field name="css_class">l4</field>
         </record>
@@ -167,6 +180,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="current_value">740,747</field>
             <field name="previous_value">740,747</field>
             <field name="parent" ref="es_pyg_normal_40500"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.1/14</field>
             <field name="css_class">l4</field>
         </record>
@@ -177,6 +191,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="current_value"></field>
             <field name="previous_value"></field>
             <field name="parent" ref="es_pyg_normal_a"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.1/15</field>
             <field name="css_class">l3</field>
         </record>
@@ -187,6 +202,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="current_value">(640),(641),(6450)</field>
             <field name="previous_value">(640),(641),(6450)</field>
             <field name="parent" ref="es_pyg_normal_40600"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.1/16</field>
             <field name="css_class">l4</field>
         </record>
@@ -197,6 +213,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="current_value">(642),(643),(649)</field>
             <field name="previous_value">(642),(643),(649)</field>
             <field name="parent" ref="es_pyg_normal_40600"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.1/17</field>
             <field name="css_class">l4</field>
         </record>
@@ -207,6 +224,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="current_value">(644),(6457),7950,7957</field>
             <field name="previous_value">(644),(6457),7950,7957</field>
             <field name="parent" ref="es_pyg_normal_40600"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.1/18</field>
             <field name="css_class">l4</field>
         </record>
@@ -217,6 +235,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="current_value"></field>
             <field name="previous_value"></field>
             <field name="parent" ref="es_pyg_normal_a"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.1/19</field>
             <field name="css_class">l3</field>
         </record>
@@ -227,6 +246,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="current_value">(62)</field>
             <field name="previous_value">(62)</field>
             <field name="parent" ref="es_pyg_normal_40700"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.1/20</field>
             <field name="css_class">l4</field>
         </record>
@@ -237,6 +257,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="current_value">(631),(634),636,639</field>
             <field name="previous_value">(631),(634),636,639</field>
             <field name="parent" ref="es_pyg_normal_40700"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.1/21</field>
             <field name="css_class">l4</field>
         </record>
@@ -247,6 +268,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="current_value">(650),(694),(695),794,7954</field>
             <field name="previous_value">(650),(694),(695),794,7954</field>
             <field name="parent" ref="es_pyg_normal_40700"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.1/22</field>
             <field name="css_class">l4</field>
         </record>
@@ -257,6 +279,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="current_value">(651),(659)</field>
             <field name="previous_value">(651),(659)</field>
             <field name="parent" ref="es_pyg_normal_40700"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.1/23</field>
             <field name="css_class">l4</field>
         </record>
@@ -267,6 +290,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="current_value">(68)</field>
             <field name="previous_value">(68)</field>
             <field name="parent" ref="es_pyg_normal_a"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.1/24</field>
             <field name="css_class">l3</field>
         </record>
@@ -277,6 +301,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="current_value"></field>
             <field name="previous_value"></field>
             <field name="parent" ref="es_pyg_normal_a"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.1/25</field>
             <field name="css_class">l3</field>
         </record>
@@ -287,6 +312,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="current_value">7951,7952,7955,7956</field>
             <field name="previous_value">7951,7952,7955,7956</field>
             <field name="parent" ref="es_pyg_normal_a"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.1/26</field>
             <field name="css_class">l3</field>
         </record>
@@ -297,6 +323,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="current_value"></field>
             <field name="previous_value"></field>
             <field name="parent" ref="es_pyg_normal_a"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.1/27</field>
             <field name="css_class">l3</field>
         </record>
@@ -307,6 +334,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="current_value">(690),(691),(692),790,791,792</field>
             <field name="previous_value">(690),(691),(692),790,791,792</field>
             <field name="parent" ref="es_pyg_normal_41100"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.1/28</field>
             <field name="css_class">l4</field>
         </record>
@@ -317,6 +345,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="current_value">(670),(671),(672),770,771,772</field>
             <field name="previous_value">(670),(671),(672),770,771,772</field>
             <field name="parent" ref="es_pyg_normal_41100"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.1/29</field>
             <field name="css_class">l4</field>
         </record>
@@ -327,6 +356,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="current_value">774;(NECA 7.ª 6)</field>
             <field name="previous_value">774;(NECA 7.ª 6)</field>
             <field name="parent" ref="es_pyg_normal_a"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.1/30</field>
             <field name="css_class">l3</field>
         </record>
@@ -337,6 +367,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="current_value">(678),778;(NECA 7.ª 9)</field>
             <field name="previous_value">(678),778;(NECA 7.ª 9)</field>
             <field name="parent" ref="es_pyg_normal_a"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.1/31</field>
             <field name="css_class">l3</field>
         </record>
@@ -346,6 +377,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="name">A.1)  RESULTADO DE EXPLOTACIÓN (1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 + 11 + 12 + 13)</field>
             <field name="current_value">40100+40200+40300+40400+40500+40600+40700+40800+40900+41000+41100+41200+41300</field>
             <field name="previous_value">40100+40200+40300+40400+40500+40600+40700+40800+40900+41000+41100+41200+41300</field>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.1/32</field>
             <field name="css_class">l1</field>
         </record>
@@ -356,6 +388,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="current_value"></field>
             <field name="previous_value"></field>
             <field name="parent" ref="es_pyg_normal_a"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.2/01</field>
             <field name="css_class">l3</field>
         </record>
@@ -366,6 +399,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="current_value"></field>
             <field name="previous_value"></field>
             <field name="parent" ref="es_pyg_normal_41400"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.2/02</field>
             <field name="css_class">l4</field>
         </record>
@@ -376,6 +410,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="current_value">7600,7601</field>
             <field name="previous_value">7600,7601</field>
             <field name="parent" ref="es_pyg_normal_41410"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.2/03</field>
             <field name="css_class">l5</field>
         </record>
@@ -386,6 +421,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="current_value">7602,7603</field>
             <field name="previous_value">7602,7603</field>
             <field name="parent" ref="es_pyg_normal_41410"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.2/04</field>
             <field name="css_class">l5</field>
         </record>
@@ -396,6 +432,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="current_value"></field>
             <field name="previous_value"></field>
             <field name="parent" ref="es_pyg_normal_41400"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.2/05</field>
             <field name="css_class">l4</field>
         </record>
@@ -406,6 +443,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="current_value">7610,7611,76200,76201,76210,76211</field>
             <field name="previous_value">7610,7611,76200,76201,76210,76211</field>
             <field name="parent" ref="es_pyg_normal_41420"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.2/06</field>
             <field name="css_class">l5</field>
         </record>
@@ -416,6 +454,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="current_value">7612,7613,76202,76203,76212,76213,767,769</field>
             <field name="previous_value">7612,7613,76202,76203,76212,76213,767,769</field>
             <field name="parent" ref="es_pyg_normal_41420"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.2/07</field>
             <field name="css_class">l5</field>
         </record>
@@ -426,6 +465,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="current_value">746;(NECA 7.ª 4)</field>
             <field name="previous_value">746;(NECA 7.ª 4)</field>
             <field name="parent" ref="es_pyg_normal_41400"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.2/08</field>
             <field name="css_class">l4</field>
         </record>
@@ -436,6 +476,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="current_value"></field>
             <field name="previous_value"></field>
             <field name="parent" ref="es_pyg_normal_a"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.2/09</field>
             <field name="css_class">l3</field>
         </record>
@@ -446,6 +487,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="current_value">(6610),(6611),(6615),(6616),(6620),(6621),(6640),(6641),(6650),(6651),(6654),(6655)</field>
             <field name="previous_value">(6610),(6611),(6615),(6616),(6620),(6621),(6640),(6641),(6650),(6651),(6654),(6655)</field>
             <field name="parent" ref="es_pyg_normal_41500"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.2/10</field>
             <field name="css_class">l4</field>
         </record>
@@ -456,6 +498,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="current_value">(6612),(6613),(6617),(6618),(6622),(6623),(6624),(6642),(6643),(6652),(6653),(6656),(6657),(669)</field>
             <field name="previous_value">(6612),(6613),(6617),(6618),(6622),(6623),(6624),(6642),(6643),(6652),(6653),(6656),(6657),(669)</field>
             <field name="parent" ref="es_pyg_normal_41500"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.2/11</field>
             <field name="css_class">l4</field>
         </record>
@@ -466,6 +509,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="current_value">(660)</field>
             <field name="previous_value">(660)</field>
             <field name="parent" ref="es_pyg_normal_41500"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.2/12</field>
             <field name="css_class">l4</field>
         </record>
@@ -476,6 +520,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="current_value"></field>
             <field name="previous_value"></field>
             <field name="parent" ref="es_pyg_normal_a"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.2/13</field>
             <field name="css_class">l3</field>
         </record>
@@ -486,6 +531,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="current_value">(6630),(6631),(6633),7630,7631,7633</field>
             <field name="previous_value">(6630),(6631),(6633),7630,7631,7633</field>
             <field name="parent" ref="es_pyg_normal_41600"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.2/14</field>
             <field name="css_class">l4</field>
         </record>
@@ -496,6 +542,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="current_value">(6632),7632</field>
             <field name="previous_value">(6632),7632</field>
             <field name="parent" ref="es_pyg_normal_41600"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.2/15</field>
             <field name="css_class">l4</field>
         </record>
@@ -506,6 +553,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="current_value">(668),768</field>
             <field name="previous_value">(668),768</field>
             <field name="parent" ref="es_pyg_normal_a"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.2/16</field>
             <field name="css_class">l3</field>
         </record>
@@ -516,6 +564,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="current_value"></field>
             <field name="previous_value"></field>
             <field name="parent" ref="es_pyg_normal_a"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.2/17</field>
             <field name="css_class">l3</field>
         </record>
@@ -526,6 +575,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="current_value">(696),(697),(698),(699),796,797,798,799</field>
             <field name="previous_value">(696),(697),(698),(699),796,797,798,799</field>
             <field name="parent" ref="es_pyg_normal_41800"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.2/18</field>
             <field name="css_class">l4</field>
         </record>
@@ -536,6 +586,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="current_value">(666),(667),(673),(675),766,773,775</field>
             <field name="previous_value">(666),(667),(673),(675),766,773,775</field>
             <field name="parent" ref="es_pyg_normal_41800"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.2/19</field>
             <field name="css_class">l4</field>
         </record>
@@ -545,6 +596,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="name">A.2) RESULTADO FINANCIERO (14 + 15 + 16 + 17 + 18)</field>
             <field name="current_value">41400+41500+41600+41700+41800</field>
             <field name="previous_value">41400+41500+41600+41700+41800</field>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.2/20</field>
             <field name="css_class">l1</field>
         </record>
@@ -554,6 +606,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="name">A.3) RESULTADO ANTES DE IMPUESTOS (A.1 + A.2)</field>
             <field name="current_value">49100+49200</field>
             <field name="previous_value">49100+49200</field>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.2/21</field>
             <field name="css_class">l1</field>
         </record>
@@ -564,6 +617,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="current_value">(6300)*,6301*,(633),638</field>
             <field name="previous_value">(6300)*,6301*,(633),638</field>
             <field name="parent" ref="es_pyg_normal_a"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.2/22</field>
             <field name="css_class">l3</field>
         </record>
@@ -573,6 +627,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="name">A.4) RESULTADO DEL EJERCICIO PROCEDENTE DE OPERACIONES CONTINUADAS (A.3 + 19)</field>
             <field name="current_value">49300+41900</field>
             <field name="previous_value">49300+41900</field>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.2/23</field>
             <field name="css_class">l1</field>
         </record>
@@ -582,6 +637,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="name">B) OPERACIONES INTERRUMPIDAS</field>
             <field name="current_value"></field>
             <field name="previous_value"></field>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.2/24</field>
             <field name="css_class">l1</field>
         </record>
@@ -592,6 +648,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="current_value"></field>
             <field name="previous_value"></field>
             <field name="parent" ref="es_pyg_normal_b"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.2/25</field>
             <field name="css_class">l3</field>
         </record>
@@ -601,6 +658,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="name">A.5) RESULTADO DEL EJERCICIO (A.4 + 20)</field>
             <field name="current_value">49400+42000</field>
             <field name="previous_value">49400+42000</field>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.2/26</field>
             <field name="css_class">l1</field>
         </record>
