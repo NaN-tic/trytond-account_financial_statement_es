@@ -165,8 +165,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_pyg_abreviado"/>
             <field name="code">49100</field>
             <field name="name">A) RESULTADO DE EXPLOTACIÓN (1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 + 11 + 12 + 13)</field>
-            <field name="current_value">concept(40100,40200,40300,40400,40500,40600,40700,40800,40900,41000,41100,41200,41300)</field>
-            <field name="previous_value">concept(40100,40200,40300,40400,40500,40600,40700,40800,40900,41000,41100,41200,41300)</field>
+            <field name="current_value">concept("40100","40200","40300","40400","40500","40600","40700","40800","40900","41000","41100","41200","41300")</field>
+            <field name="previous_value">concept("40100","40200","40300","40400","40500","40600","40700","40800","40900","41000","41100","41200","41300")</field>
             <field name="visible" eval="True"/>
             <field name="sequence">PA/14</field>
             <field name="css_class">l1</field>
@@ -247,8 +247,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_pyg_abreviado"/>
             <field name="code">49200</field>
             <field name="name">B) RESULTADO FINANCIERO (14 + 15 + 16 + 17 + 18)</field>
-            <field name="current_value">concept(41400,41500,41600,41700,41800)</field>
-            <field name="previous_value">concept(41400,41500,41600,41700,41800)</field>
+            <field name="current_value">concept("41400","41500","41600","41700","41800")</field>
+            <field name="previous_value">concept("41400","41500","41600","41700","41800")</field>
             <field name="visible" eval="True"/>
             <field name="sequence">PA/22</field>
             <field name="css_class">l1</field>
@@ -257,8 +257,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_pyg_abreviado"/>
             <field name="code">49300</field>
             <field name="name">C) RESULTADO ANTES DE IMPUESTOS (A + B)</field>
-            <field name="current_value">concept(49100,49200)</field>
-            <field name="previous_value">concept(49100,49200)</field>
+            <field name="current_value">concept("49100","49200")</field>
+            <field name="previous_value">concept("49100","49200")</field>
             <field name="visible" eval="True"/>
             <field name="sequence">PA/23</field>
             <field name="css_class">l1</field>
@@ -277,8 +277,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_pyg_abreviado"/>
             <field name="code">49500</field>
             <field name="name">D) RESULTADO DEL EJERCICIO (C + 19)</field>
-            <field name="current_value">concept(49300,41900)</field>
-            <field name="previous_value">concept(49300,41900)</field>
+            <field name="current_value">concept("49300","41900")</field>
+            <field name="previous_value">concept("49300","41900")</field>
             <field name="visible" eval="True"/>
             <field name="sequence">PA/25</field>
             <field name="css_class">l1</field>

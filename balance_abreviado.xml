@@ -281,8 +281,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_balance_abreviado"/>
             <field name="code">10000</field>
             <field name="name">TOTAL ACTIVO (A + B)</field>
-            <field name="current_value">concept(11000,12000)</field>
-            <field name="previous_value">concept(11000,12000)</field>
+            <field name="current_value">concept("11000","12000")</field>
+            <field name="previous_value">concept("11000","12000")</field>
             <field name="visible" eval="True"/>
             <field name="sequence">BA1/22</field>
             <field name="css_class">l1</field>
@@ -739,8 +739,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_balance_abreviado"/>
             <field name="code">30000</field>
             <field name="name">TOTAL PATRIMONIO NETO Y PASIVO (A + B + C)</field>
-            <field name="current_value">concept(20000,31000,32000)</field>
-            <field name="previous_value">concept(20000,31000,32000)</field>
+            <field name="current_value">concept("20000","31000","32000")</field>
+            <field name="previous_value">concept("20000","31000","32000")</field>
             <field name="visible" eval="True"/>
             <field name="sequence">BA2.2/16</field>
             <field name="css_class">l1</field>

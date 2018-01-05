@@ -28,8 +28,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
 			<field name="template" ref="es_eiyg_normal"/>
 			<field name="code">59200</field>
 			<field name="name">B) Total ingresos y gastos imputados directamente en el patrimonio neto (I + II + III + IV + V + VI + VII)</field>
-			<field name="current_value">concept(50010,50020,50030,50040,50050,50060,50070)</field>
-			<field name="previous_value">concept(50010,50020,50030,50040,50050,50060,50070)</field>
+			<field name="current_value">concept("50010","50020","50030","50040","50050","50060","50070")</field>
+			<field name="previous_value">concept("50010","50020","50030","50040","50050","50060","50070")</field>
 			<field name="visible" eval="True"/>
 			<field name="sequence">E1.2/01</field>
 			<field name="css_class">l1</field>
@@ -137,8 +137,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
 			<field name="template" ref="es_eiyg_normal"/>
 			<field name="code">59300</field>
 			<field name="name">C) Total transferencias a la cuenta de pérdidas y ganancias (VIII + IX + X + XI + XII + XIII)</field>
-			<field name="current_value">concept(50080,50090,50100,50110,50120,50130)</field>
-			<field name="previous_value">concept(50080,50090,50100,50110,50120,50130)</field>
+			<field name="current_value">concept("50080","50090","50100","50110","50120","50130")</field>
+			<field name="previous_value">concept("50080","50090","50100","50110","50120","50130")</field>
 			<field name="visible" eval="True"/>
 			<field name="sequence">E1.3/01</field>
 			<field name="css_class">l1</field>
@@ -235,8 +235,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
 			<field name="template" ref="es_eiyg_normal"/>
 			<field name="code">59400</field>
 			<field name="name">TOTAL DE INGRESOS Y GASTOS RECONOCIDOS (A + B + C)</field>
-			<field name="current_value">concept(59100,59200,59300)</field>
-			<field name="previous_value">concept(59100,59200,59300)</field>
+			<field name="current_value">concept("59100","59200","59300")</field>
+			<field name="previous_value">concept("59100","59200","59300")</field>
 			<field name="visible" eval="True"/>
 			<field name="sequence">E1.4/01</field>
 			<field name="css_class">l1</field>

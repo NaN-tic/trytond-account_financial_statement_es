@@ -375,8 +375,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_pyg_normal"/>
             <field name="code">49100</field>
             <field name="name">A.1)  RESULTADO DE EXPLOTACIÓN (1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 + 11 + 12 + 13)</field>
-            <field name="current_value">concept(40100,40200,40300,40400,40500,40600,40700,40800,40900,41000,41100,41200,41300)</field>
-            <field name="previous_value">concept(40100,40200,40300,40400,40500,40600,40700,40800,40900,41000,41100,41200,41300)</field>
+            <field name="current_value">concept("40100","40200","40300","40400","40500","40600","40700","40800","40900","41000","41100","41200","41300")</field>
+            <field name="previous_value">concept("40100","40200","40300","40400","40500","40600","40700","40800","40900","41000","41100","41200","41300")</field>
             <field name="visible" eval="True"/>
             <field name="sequence">P1.1/32</field>
             <field name="css_class">l1</field>
@@ -594,8 +594,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_pyg_normal"/>
             <field name="code">49200</field>
             <field name="name">A.2) RESULTADO FINANCIERO (14 + 15 + 16 + 17 + 18)</field>
-            <field name="current_value">concept(41400,41500,41600,41700,41800)</field>
-            <field name="previous_value">concept(41400,41500,41600,41700,41800)</field>
+            <field name="current_value">concept("41400","41500","41600","41700","41800")</field>
+            <field name="previous_value">concept("41400","41500","41600","41700","41800")</field>
             <field name="visible" eval="True"/>
             <field name="sequence">P1.2/20</field>
             <field name="css_class">l1</field>
@@ -604,8 +604,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_pyg_normal"/>
             <field name="code">49300</field>
             <field name="name">A.3) RESULTADO ANTES DE IMPUESTOS (A.1 + A.2)</field>
-            <field name="current_value">concept(49100,49200)</field>
-            <field name="previous_value">concept(49100,49200)</field>
+            <field name="current_value">concept("49100","49200")</field>
+            <field name="previous_value">concept("49100","49200")</field>
             <field name="visible" eval="True"/>
             <field name="sequence">P1.2/21</field>
             <field name="css_class">l1</field>
@@ -625,8 +625,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_pyg_normal"/>
             <field name="code">49400</field>
             <field name="name">A.4) RESULTADO DEL EJERCICIO PROCEDENTE DE OPERACIONES CONTINUADAS (A.3 + 19)</field>
-            <field name="current_value">concept(49300,41900)</field>
-            <field name="previous_value">concept(49300,41900)</field>
+            <field name="current_value">concept("49300","41900")</field>
+            <field name="previous_value">concept("49300","41900")</field>
             <field name="visible" eval="True"/>
             <field name="sequence">P1.2/23</field>
             <field name="css_class">l1</field>
@@ -656,8 +656,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_pyg_normal"/>
             <field name="code">49500</field>
             <field name="name">A.5) RESULTADO DEL EJERCICIO (A.4 + 20)</field>
-            <field name="current_value">concept(49400,42000)</field>
-            <field name="previous_value">concept(49400,42000)</field>
+            <field name="current_value">concept("49400","42000")</field>
+            <field name="previous_value">concept("49400","42000")</field>
             <field name="visible" eval="True"/>
             <field name="sequence">P1.2/26</field>
             <field name="css_class">l1</field>
