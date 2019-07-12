@@ -104,8 +104,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_balance_abreviado"/>
             <field name="code">11600</field>
             <field name="name">VI. Activos por impuesto diferido</field>
-            <field name="current_value">474</field>
-            <field name="previous_value">474</field>
+            <field name="current_value">balance(474)</field>
+            <field name="previous_value">balance(474)</field>
             <field name="negate" eval="True"/>
             <field name="parent" ref="es_balance_abreviado_11000"/>
             <field name="visible" eval="True"/>
@@ -209,8 +209,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_balance_abreviado"/>
             <field name="code">12370</field>
             <field name="name">2. Accionistas (socios) por desembolsos exigidos</field>
-            <field name="current_value">5580</field>
-            <field name="previous_value">5580</field>
+            <field name="current_value">balance(5580)</field>
+            <field name="previous_value">balance(5580)</field>
             <field name="negate" eval="True"/>
             <field name="parent" ref="es_balance_abreviado_12300"/>
             <field name="visible" eval="True"/>
