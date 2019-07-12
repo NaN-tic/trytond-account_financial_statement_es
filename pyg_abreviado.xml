@@ -55,8 +55,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_pyg_abreviado"/>
             <field name="code">40300</field>
             <field name="name">3. Trabajos realizados por la empresa para su activo</field>
-            <field name="current_value">73</field>
-            <field name="previous_value">73</field>
+            <field name="current_value">balance(73)</field>
+            <field name="previous_value">balance(73)</field>
             <field name="visible" eval="True"/>
             <field name="sequence">PA/03</field>
             <field name="css_class">l3</field>
