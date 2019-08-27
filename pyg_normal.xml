@@ -37,6 +37,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="name">A) OPERACIONES CONTINUADAS</field>
             <field name="current_value"></field>
             <field name="previous_value"></field>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.1/01</field>
             <field name="css_class">l1</field>
         </record>
@@ -47,6 +48,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="current_value"></field>
             <field name="previous_value"></field>
             <field name="parent" ref="es_pyg_normal_a"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.1/02</field>
             <field name="css_class">l3</field>
         </record>
@@ -54,9 +56,10 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_pyg_normal"/>
             <field name="code">40110</field>
             <field name="name">a) Ventas</field>
-            <field name="current_value">700,701,702,703,704,(706),(708),(709)</field>
-            <field name="previous_value">700,701,702,703,704,(706),(708),(709)</field>
+            <field name="current_value">balance(700,701,702,703,704) + invert(706,708,709)</field>
+            <field name="previous_value">balance(700,701,702,703,704) + invert(706,708,709)</field>
             <field name="parent" ref="es_pyg_normal_40100"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.1/03</field>
             <field name="css_class">l4</field>
         </record>
@@ -64,9 +67,10 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_pyg_normal"/>
             <field name="code">40120</field>
             <field name="name">b) Prestaciones de servicios</field>
-            <field name="current_value">705</field>
-            <field name="previous_value">705</field>
+            <field name="current_value">balance(705)</field>
+            <field name="previous_value">balance(705)</field>
             <field name="parent" ref="es_pyg_normal_40100"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.1/04</field>
             <field name="css_class">l4</field>
         </record>
@@ -74,9 +78,10 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_pyg_normal"/>
             <field name="code">40200</field>
             <field name="name">2. Variación de existencias de productos terminados y en curso de fabricación</field>
-            <field name="current_value">(6930),71*,7930</field>
-            <field name="previous_value">(6930),71*,7930</field>
+            <field name="current_value">invert(6930) + balance("71*",7930)</field>
+            <field name="previous_value">invert(6930) + balance("71*",7930)</field>
             <field name="parent" ref="es_pyg_normal_a"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.1/05</field>
             <field name="css_class">l3</field>
         </record>
@@ -84,9 +89,10 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_pyg_normal"/>
             <field name="code">40300</field>
             <field name="name">3. Trabajos realizados por la empresa para su activo</field>
-            <field name="current_value">73</field>
-            <field name="previous_value">73</field>
+            <field name="current_value">balance(73)</field>
+            <field name="previous_value">balance(73)</field>
             <field name="parent" ref="es_pyg_normal_a"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.1/06</field>
             <field name="css_class">l3</field>
         </record>
@@ -97,6 +103,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="current_value"></field>
             <field name="previous_value"></field>
             <field name="parent" ref="es_pyg_normal_a"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.1/07</field>
             <field name="css_class">l3</field>
         </record>
@@ -104,9 +111,10 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_pyg_normal"/>
             <field name="code">40410</field>
             <field name="name">a) Consumo de mercaderías</field>
-            <field name="current_value">(600),6060,6080,6090,610*</field>
-            <field name="previous_value">(600),6060,6080,6090,610*</field>
+            <field name="current_value">invert(600) + balance(6060,6080,6090,"610*")</field>
+            <field name="previous_value">invert(600) + balance(6060,6080,6090,"610*")</field>
             <field name="parent" ref="es_pyg_normal_40400"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.1/08</field>
             <field name="css_class">l4</field>
         </record>
@@ -114,9 +122,10 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_pyg_normal"/>
             <field name="code">40420</field>
             <field name="name">b) Consumo de materias primas y otras materias consumibles</field>
-            <field name="current_value">(601),(602),6061,6062,6081,6082,6091,6092,611*,612*</field>
-            <field name="previous_value">(601),(602),6061,6062,6081,6082,6091,6092,611*,612*</field>
+            <field name="current_value">invert(601,602) + balance(6061,6062,6081,6082,6091,6092,"611*","612*")</field>
+            <field name="previous_value">invert(601,602) + balance(6061,6062,6081,6082,6091,6092,"611*","612*")</field>
             <field name="parent" ref="es_pyg_normal_40400"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.1/09</field>
             <field name="css_class">l4</field>
         </record>
@@ -124,9 +133,10 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_pyg_normal"/>
             <field name="code">40430</field>
             <field name="name">c) Trabajos realizados por otras empresas</field>
-            <field name="current_value">(607)</field>
-            <field name="previous_value">(607)</field>
+            <field name="current_value">invert(607)</field>
+            <field name="previous_value">invert(607)</field>
             <field name="parent" ref="es_pyg_normal_40400"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.1/10</field>
             <field name="css_class">l4</field>
         </record>
@@ -134,9 +144,10 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_pyg_normal"/>
             <field name="code">40440</field>
             <field name="name">d) Deterioro de mercaderías, materias primas y otros aprovisionamientos</field>
-            <field name="current_value">(6931),(6932),(6933),7931,7932,7933</field>
-            <field name="previous_value">(6931),(6932),(6933),7931,7932,7933</field>
+            <field name="current_value">invert(6931,6932,6933) + balance(7931,7932,7933)</field>
+            <field name="previous_value">invert(6931,6932,6933) + balance(7931,7932,7933)</field>
             <field name="parent" ref="es_pyg_normal_40400"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.1/11</field>
             <field name="css_class">l4</field>
         </record>
@@ -147,6 +158,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="current_value"></field>
             <field name="previous_value"></field>
             <field name="parent" ref="es_pyg_normal_a"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.1/12</field>
             <field name="css_class">l3</field>
         </record>
@@ -154,9 +166,10 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_pyg_normal"/>
             <field name="code">40510</field>
             <field name="name">a) Ingresos accesorios y otros de gestión corriente</field>
-            <field name="current_value">75</field>
-            <field name="previous_value">75</field>
+            <field name="current_value">balance(75)</field>
+            <field name="previous_value">balance(75)</field>
             <field name="parent" ref="es_pyg_normal_40500"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.1/13</field>
             <field name="css_class">l4</field>
         </record>
@@ -164,9 +177,10 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_pyg_normal"/>
             <field name="code">40520</field>
             <field name="name">b) Subvenciones de explotación incorporadas al resultado del ejercicio</field>
-            <field name="current_value">740,747</field>
-            <field name="previous_value">740,747</field>
+            <field name="current_value">balance(740,747)</field>
+            <field name="previous_value">balance(740,747)</field>
             <field name="parent" ref="es_pyg_normal_40500"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.1/14</field>
             <field name="css_class">l4</field>
         </record>
@@ -177,6 +191,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="current_value"></field>
             <field name="previous_value"></field>
             <field name="parent" ref="es_pyg_normal_a"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.1/15</field>
             <field name="css_class">l3</field>
         </record>
@@ -184,9 +199,10 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_pyg_normal"/>
             <field name="code">40610</field>
             <field name="name">a) Sueldos, salarios y asimilados</field>
-            <field name="current_value">(640),(641),(6450)</field>
-            <field name="previous_value">(640),(641),(6450)</field>
+            <field name="current_value">invert(640,641,6450)</field>
+            <field name="previous_value">invert(640,641,6450)</field>
             <field name="parent" ref="es_pyg_normal_40600"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.1/16</field>
             <field name="css_class">l4</field>
         </record>
@@ -194,9 +210,10 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_pyg_normal"/>
             <field name="code">40620</field>
             <field name="name">b) Cargas sociales</field>
-            <field name="current_value">(642),(643),(649)</field>
-            <field name="previous_value">(642),(643),(649)</field>
+            <field name="current_value">invert(642,643,649)</field>
+            <field name="previous_value">invert(642,643,649)</field>
             <field name="parent" ref="es_pyg_normal_40600"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.1/17</field>
             <field name="css_class">l4</field>
         </record>
@@ -204,9 +221,10 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_pyg_normal"/>
             <field name="code">40630</field>
             <field name="name">c) Provisiones</field>
-            <field name="current_value">(644),(6457),7950,7957</field>
-            <field name="previous_value">(644),(6457),7950,7957</field>
+            <field name="current_value">invert(644,6457) + balance(7950,7957)</field>
+            <field name="previous_value">invert(644,6457) + balance(7950,7957)</field>
             <field name="parent" ref="es_pyg_normal_40600"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.1/18</field>
             <field name="css_class">l4</field>
         </record>
@@ -217,6 +235,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="current_value"></field>
             <field name="previous_value"></field>
             <field name="parent" ref="es_pyg_normal_a"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.1/19</field>
             <field name="css_class">l3</field>
         </record>
@@ -224,9 +243,10 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_pyg_normal"/>
             <field name="code">40710</field>
             <field name="name">a) Servicios exteriores</field>
-            <field name="current_value">(62)</field>
-            <field name="previous_value">(62)</field>
+            <field name="current_value">invert(62)</field>
+            <field name="previous_value">invert(62)</field>
             <field name="parent" ref="es_pyg_normal_40700"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.1/20</field>
             <field name="css_class">l4</field>
         </record>
@@ -234,9 +254,10 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_pyg_normal"/>
             <field name="code">40720</field>
             <field name="name">b) Tributos</field>
-            <field name="current_value">(631),(634),636,639</field>
-            <field name="previous_value">(631),(634),636,639</field>
+            <field name="current_value">invert(631,634) + balance(636,639)</field>
+            <field name="previous_value">invert(631,634) + balance(636,639)</field>
             <field name="parent" ref="es_pyg_normal_40700"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.1/21</field>
             <field name="css_class">l4</field>
         </record>
@@ -244,9 +265,10 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_pyg_normal"/>
             <field name="code">40730</field>
             <field name="name">c) Pérdidas, deterioro y variación de provisiones por operaciones comerciales</field>
-            <field name="current_value">(650),(694),(695),794,7954</field>
-            <field name="previous_value">(650),(694),(695),794,7954</field>
+            <field name="current_value">invert(650,694,695) + balance(794,7954)</field>
+            <field name="previous_value">invert(650,694,695) + balance(794,7954)</field>
             <field name="parent" ref="es_pyg_normal_40700"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.1/22</field>
             <field name="css_class">l4</field>
         </record>
@@ -254,9 +276,10 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_pyg_normal"/>
             <field name="code">40740</field>
             <field name="name">d) Otros gastos de gestión corriente </field>
-            <field name="current_value">(651),(659)</field>
-            <field name="previous_value">(651),(659)</field>
+            <field name="current_value">invert(651,659)</field>
+            <field name="previous_value">invert(651,659)</field>
             <field name="parent" ref="es_pyg_normal_40700"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.1/23</field>
             <field name="css_class">l4</field>
         </record>
@@ -264,9 +287,10 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_pyg_normal"/>
             <field name="code">40800</field>
             <field name="name">8. Amortización del inmovilizado</field>
-            <field name="current_value">(68)</field>
-            <field name="previous_value">(68)</field>
+            <field name="current_value">invert(68)</field>
+            <field name="previous_value">invert(68)</field>
             <field name="parent" ref="es_pyg_normal_a"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.1/24</field>
             <field name="css_class">l3</field>
         </record>
@@ -277,6 +301,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="current_value"></field>
             <field name="previous_value"></field>
             <field name="parent" ref="es_pyg_normal_a"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.1/25</field>
             <field name="css_class">l3</field>
         </record>
@@ -284,9 +309,10 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_pyg_normal"/>
             <field name="code">41000</field>
             <field name="name">10. Excesos de provisiones </field>
-            <field name="current_value">7951,7952,7955,7956</field>
-            <field name="previous_value">7951,7952,7955,7956</field>
+            <field name="current_value">balance(7951,7952,7955,7956)</field>
+            <field name="previous_value">balance(7951,7952,7955,7956)</field>
             <field name="parent" ref="es_pyg_normal_a"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.1/26</field>
             <field name="css_class">l3</field>
         </record>
@@ -297,6 +323,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="current_value"></field>
             <field name="previous_value"></field>
             <field name="parent" ref="es_pyg_normal_a"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.1/27</field>
             <field name="css_class">l3</field>
         </record>
@@ -304,9 +331,10 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_pyg_normal"/>
             <field name="code">41110</field>
             <field name="name">a) Deterioro y pérdidas</field>
-            <field name="current_value">(690),(691),(692),790,791,792</field>
-            <field name="previous_value">(690),(691),(692),790,791,792</field>
+            <field name="current_value">invert(690,691,692) + balance(790,791,792)</field>
+            <field name="previous_value">invert(690,691,692) + balance(790,791,792)</field>
             <field name="parent" ref="es_pyg_normal_41100"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.1/28</field>
             <field name="css_class">l4</field>
         </record>
@@ -314,9 +342,10 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_pyg_normal"/>
             <field name="code">41120</field>
             <field name="name">b) Resultados por enajenaciones y otras</field>
-            <field name="current_value">(670),(671),(672),770,771,772</field>
-            <field name="previous_value">(670),(671),(672),770,771,772</field>
+            <field name="current_value">invert(670,671,672) + balance(770,771,772)</field>
+            <field name="previous_value">invert(670,671,672) + balance(770,771,772)</field>
             <field name="parent" ref="es_pyg_normal_41100"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.1/29</field>
             <field name="css_class">l4</field>
         </record>
@@ -324,9 +353,10 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_pyg_normal"/>
             <field name="code">41200</field>
             <field name="name">12. Diferencia negativa de combinaciones de negocio</field>
-            <field name="current_value">774;(NECA 7.ª 6)</field>
-            <field name="previous_value">774;(NECA 7.ª 6)</field>
+            <field name="current_value">balance(774);(NECA 7.ª 6)</field>
+            <field name="previous_value">balance(774);(NECA 7.ª 6)</field>
             <field name="parent" ref="es_pyg_normal_a"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.1/30</field>
             <field name="css_class">l3</field>
         </record>
@@ -334,9 +364,10 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_pyg_normal"/>
             <field name="code">41300</field>
             <field name="name">13. Otros resultados</field>
-            <field name="current_value">(678),778;(NECA 7.ª 9)</field>
-            <field name="previous_value">(678),778;(NECA 7.ª 9)</field>
+            <field name="current_value">invert(678) + balance(778);(NECA 7.ª 9)</field>
+            <field name="previous_value">invert(678) + balance(778);(NECA 7.ª 9)</field>
             <field name="parent" ref="es_pyg_normal_a"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.1/31</field>
             <field name="css_class">l3</field>
         </record>
@@ -344,8 +375,9 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_pyg_normal"/>
             <field name="code">49100</field>
             <field name="name">A.1)  RESULTADO DE EXPLOTACIÓN (1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 + 11 + 12 + 13)</field>
-            <field name="current_value">40100+40200+40300+40400+40500+40600+40700+40800+40900+41000+41100+41200+41300</field>
-            <field name="previous_value">40100+40200+40300+40400+40500+40600+40700+40800+40900+41000+41100+41200+41300</field>
+            <field name="current_value">concept("40100","40200","40300","40400","40500","40600","40700","40800","40900","41000","41100","41200","41300")</field>
+            <field name="previous_value">concept("40100","40200","40300","40400","40500","40600","40700","40800","40900","41000","41100","41200","41300")</field>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.1/32</field>
             <field name="css_class">l1</field>
         </record>
@@ -356,6 +388,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="current_value"></field>
             <field name="previous_value"></field>
             <field name="parent" ref="es_pyg_normal_a"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.2/01</field>
             <field name="css_class">l3</field>
         </record>
@@ -366,6 +399,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="current_value"></field>
             <field name="previous_value"></field>
             <field name="parent" ref="es_pyg_normal_41400"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.2/02</field>
             <field name="css_class">l4</field>
         </record>
@@ -373,9 +407,10 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_pyg_normal"/>
             <field name="code">41411</field>
             <field name="name">a 1) En empresas del grupo y asociadas</field>
-            <field name="current_value">7600,7601</field>
-            <field name="previous_value">7600,7601</field>
+            <field name="current_value">balance(7600,7601)</field>
+            <field name="previous_value">balance(7600,7601)</field>
             <field name="parent" ref="es_pyg_normal_41410"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.2/03</field>
             <field name="css_class">l5</field>
         </record>
@@ -383,9 +418,10 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_pyg_normal"/>
             <field name="code">41412</field>
             <field name="name">a 2) En terceros</field>
-            <field name="current_value">7602,7603</field>
-            <field name="previous_value">7602,7603</field>
+            <field name="current_value">balance(7602,7603)</field>
+            <field name="previous_value">balance(7602,7603)</field>
             <field name="parent" ref="es_pyg_normal_41410"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.2/04</field>
             <field name="css_class">l5</field>
         </record>
@@ -396,6 +432,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="current_value"></field>
             <field name="previous_value"></field>
             <field name="parent" ref="es_pyg_normal_41400"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.2/05</field>
             <field name="css_class">l4</field>
         </record>
@@ -403,9 +440,10 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_pyg_normal"/>
             <field name="code">41421</field>
             <field name="name">b 1) De empresas del grupo y asociadas</field>
-            <field name="current_value">7610,7611,76200,76201,76210,76211</field>
-            <field name="previous_value">7610,7611,76200,76201,76210,76211</field>
+            <field name="current_value">balance(7610,7611,76200,76201,76210,76211)</field>
+            <field name="previous_value">balance(7610,7611,76200,76201,76210,76211)</field>
             <field name="parent" ref="es_pyg_normal_41420"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.2/06</field>
             <field name="css_class">l5</field>
         </record>
@@ -413,9 +451,10 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_pyg_normal"/>
             <field name="code">41422</field>
             <field name="name">b 2) De terceros</field>
-            <field name="current_value">7612,7613,76202,76203,76212,76213,767,769</field>
-            <field name="previous_value">7612,7613,76202,76203,76212,76213,767,769</field>
+            <field name="current_value">balance(7612,7613,76202,76203,76212,76213,767,769)</field>
+            <field name="previous_value">balance(7612,7613,76202,76203,76212,76213,767,769)</field>
             <field name="parent" ref="es_pyg_normal_41420"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.2/07</field>
             <field name="css_class">l5</field>
         </record>
@@ -423,9 +462,10 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_pyg_normal"/>
             <field name="code">41430</field>
             <field name="name">c) Imputación de subvenciones, donaciones y legados de carácter inanciero</field>
-            <field name="current_value">746;(NECA 7.ª 4)</field>
-            <field name="previous_value">746;(NECA 7.ª 4)</field>
+            <field name="current_value">balance(746);(NECA 7.ª 4)</field>
+            <field name="previous_value">balance(746);(NECA 7.ª 4)</field>
             <field name="parent" ref="es_pyg_normal_41400"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.2/08</field>
             <field name="css_class">l4</field>
         </record>
@@ -436,6 +476,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="current_value"></field>
             <field name="previous_value"></field>
             <field name="parent" ref="es_pyg_normal_a"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.2/09</field>
             <field name="css_class">l3</field>
         </record>
@@ -443,9 +484,10 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_pyg_normal"/>
             <field name="code">41510</field>
             <field name="name">a) Por deudas con empresas del grupo y asociadas</field>
-            <field name="current_value">(6610),(6611),(6615),(6616),(6620),(6621),(6640),(6641),(6650),(6651),(6654),(6655)</field>
-            <field name="previous_value">(6610),(6611),(6615),(6616),(6620),(6621),(6640),(6641),(6650),(6651),(6654),(6655)</field>
+            <field name="current_value">invert(6610,6611,6615,6616,6620,6621,6640,6641,6650,6651,6654,6655)</field>
+            <field name="previous_value">invert(6610,6611,6615,6616,6620,6621,6640,6641,6650,6651,6654,6655)</field>
             <field name="parent" ref="es_pyg_normal_41500"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.2/10</field>
             <field name="css_class">l4</field>
         </record>
@@ -453,9 +495,10 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_pyg_normal"/>
             <field name="code">41520</field>
             <field name="name">b) Por deudas con terceros</field>
-            <field name="current_value">(6612),(6613),(6617),(6618),(6622),(6623),(6624),(6642),(6643),(6652),(6653),(6656),(6657),(669)</field>
-            <field name="previous_value">(6612),(6613),(6617),(6618),(6622),(6623),(6624),(6642),(6643),(6652),(6653),(6656),(6657),(669)</field>
+            <field name="current_value">invert(6612,6613,6617,6618,6622,6623,6624,6642,6643,6652,6653,6656,6657,669)</field>
+            <field name="previous_value">invert(6612,6613,6617,6618,6622,6623,6624,6642,6643,6652,6653,6656,6657,669)</field>
             <field name="parent" ref="es_pyg_normal_41500"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.2/11</field>
             <field name="css_class">l4</field>
         </record>
@@ -463,9 +506,10 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_pyg_normal"/>
             <field name="code">41530</field>
             <field name="name">c) Por actualización de provisiones</field>
-            <field name="current_value">(660)</field>
-            <field name="previous_value">(660)</field>
+            <field name="current_value">invert(660)</field>
+            <field name="previous_value">invert(660)</field>
             <field name="parent" ref="es_pyg_normal_41500"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.2/12</field>
             <field name="css_class">l4</field>
         </record>
@@ -476,6 +520,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="current_value"></field>
             <field name="previous_value"></field>
             <field name="parent" ref="es_pyg_normal_a"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.2/13</field>
             <field name="css_class">l3</field>
         </record>
@@ -483,9 +528,10 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_pyg_normal"/>
             <field name="code">41610</field>
             <field name="name">a) Cartera de negociación y otros </field>
-            <field name="current_value">(6630),(6631),(6633),7630,7631,7633</field>
-            <field name="previous_value">(6630),(6631),(6633),7630,7631,7633</field>
+            <field name="current_value">invert(6630,6631,6633) + balance(7630,7631,7633)</field>
+            <field name="previous_value">invert(6630,6631,6633) + balance(7630,7631,7633)</field>
             <field name="parent" ref="es_pyg_normal_41600"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.2/14</field>
             <field name="css_class">l4</field>
         </record>
@@ -493,9 +539,10 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_pyg_normal"/>
             <field name="code">41620</field>
             <field name="name">b) Imputación al resultado del ejercicio por activos financieros disponibles para la venta</field>
-            <field name="current_value">(6632),7632</field>
-            <field name="previous_value">(6632),7632</field>
+            <field name="current_value">invert(6632) + balance(7632)</field>
+            <field name="previous_value">invert(6632) + balance(7632)</field>
             <field name="parent" ref="es_pyg_normal_41600"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.2/15</field>
             <field name="css_class">l4</field>
         </record>
@@ -503,9 +550,10 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_pyg_normal"/>
             <field name="code">41700</field>
             <field name="name">17. Diferencias de cambio</field>
-            <field name="current_value">(668),768</field>
-            <field name="previous_value">(668),768</field>
+            <field name="current_value">invert(668) + balance(768)</field>
+            <field name="previous_value">invert(668) + balance(768)</field>
             <field name="parent" ref="es_pyg_normal_a"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.2/16</field>
             <field name="css_class">l3</field>
         </record>
@@ -516,6 +564,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="current_value"></field>
             <field name="previous_value"></field>
             <field name="parent" ref="es_pyg_normal_a"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.2/17</field>
             <field name="css_class">l3</field>
         </record>
@@ -523,9 +572,10 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_pyg_normal"/>
             <field name="code">41810</field>
             <field name="name">a) Deterioros y pérdidas</field>
-            <field name="current_value">(696),(697),(698),(699),796,797,798,799</field>
-            <field name="previous_value">(696),(697),(698),(699),796,797,798,799</field>
+            <field name="current_value">invert(696,697,698,699) + balance(796,797,798,799)</field>
+            <field name="previous_value">invert(696,697,698,699) + balance(796,797,798,799)</field>
             <field name="parent" ref="es_pyg_normal_41800"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.2/18</field>
             <field name="css_class">l4</field>
         </record>
@@ -533,9 +583,10 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_pyg_normal"/>
             <field name="code">41820</field>
             <field name="name">b) Resultados por enajenaciones y otras</field>
-            <field name="current_value">(666),(667),(673),(675),766,773,775</field>
-            <field name="previous_value">(666),(667),(673),(675),766,773,775</field>
+            <field name="current_value">invert(666,667,673,675) + balance(766,773,775)</field>
+            <field name="previous_value">invert(666,667,673,675) + balance(766,773,775)</field>
             <field name="parent" ref="es_pyg_normal_41800"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.2/19</field>
             <field name="css_class">l4</field>
         </record>
@@ -543,8 +594,9 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_pyg_normal"/>
             <field name="code">49200</field>
             <field name="name">A.2) RESULTADO FINANCIERO (14 + 15 + 16 + 17 + 18)</field>
-            <field name="current_value">41400+41500+41600+41700+41800</field>
-            <field name="previous_value">41400+41500+41600+41700+41800</field>
+            <field name="current_value">concept("41400","41500","41600","41700","41800")</field>
+            <field name="previous_value">concept("41400","41500","41600","41700","41800")</field>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.2/20</field>
             <field name="css_class">l1</field>
         </record>
@@ -552,8 +604,9 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_pyg_normal"/>
             <field name="code">49300</field>
             <field name="name">A.3) RESULTADO ANTES DE IMPUESTOS (A.1 + A.2)</field>
-            <field name="current_value">49100+49200</field>
-            <field name="previous_value">49100+49200</field>
+            <field name="current_value">concept("49100","49200")</field>
+            <field name="previous_value">concept("49100","49200")</field>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.2/21</field>
             <field name="css_class">l1</field>
         </record>
@@ -561,9 +614,10 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_pyg_normal"/>
             <field name="code">41900</field>
             <field name="name">19. Impuestos sobre beneficios</field>
-            <field name="current_value">(6300)*,6301*,(633),638</field>
-            <field name="previous_value">(6300)*,6301*,(633),638</field>
+            <field name="current_value">invert("6300*",633) + balance("6301*",638)</field>
+            <field name="previous_value">invert("6300*",633) + balance("6301*",638)</field>
             <field name="parent" ref="es_pyg_normal_a"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.2/22</field>
             <field name="css_class">l3</field>
         </record>
@@ -571,8 +625,9 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_pyg_normal"/>
             <field name="code">49400</field>
             <field name="name">A.4) RESULTADO DEL EJERCICIO PROCEDENTE DE OPERACIONES CONTINUADAS (A.3 + 19)</field>
-            <field name="current_value">49300+41900</field>
-            <field name="previous_value">49300+41900</field>
+            <field name="current_value">concept("49300","41900")</field>
+            <field name="previous_value">concept("49300","41900")</field>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.2/23</field>
             <field name="css_class">l1</field>
         </record>
@@ -582,6 +637,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="name">B) OPERACIONES INTERRUMPIDAS</field>
             <field name="current_value"></field>
             <field name="previous_value"></field>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.2/24</field>
             <field name="css_class">l1</field>
         </record>
@@ -592,6 +648,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="current_value"></field>
             <field name="previous_value"></field>
             <field name="parent" ref="es_pyg_normal_b"/>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.2/25</field>
             <field name="css_class">l3</field>
         </record>
@@ -599,8 +656,9 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_pyg_normal"/>
             <field name="code">49500</field>
             <field name="name">A.5) RESULTADO DEL EJERCICIO (A.4 + 20)</field>
-            <field name="current_value">49400+42000</field>
-            <field name="previous_value">49400+42000</field>
+            <field name="current_value">concept("49400","42000")</field>
+            <field name="previous_value">concept("49400","42000")</field>
+            <field name="visible" eval="True"/>
             <field name="sequence">P1.2/26</field>
             <field name="css_class">l1</field>
         </record>
