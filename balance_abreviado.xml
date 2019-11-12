@@ -221,8 +221,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_balance_abreviado"/>
             <field name="code">12390</field>
             <field name="name">3. Otros deudores</field>
-            <field name="current_value">balance(44,460,470,471,472,5531,5533,544)</field>
-            <field name="previous_value">balance(44,460,470,471,472,5531,5533,544)</field>
+            <field name="current_value">balance(44,460,470,471,472,473,5531,5533,544)</field>
+            <field name="previous_value">balance(44,460,470,471,472,473,5531,5533,544)</field>
             <field name="negate" eval="True"/>
             <field name="parent" ref="es_balance_abreviado_12300"/>
             <field name="visible" eval="True"/>
