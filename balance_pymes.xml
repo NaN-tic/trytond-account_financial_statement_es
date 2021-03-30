@@ -346,8 +346,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_balance_pymes"/>
             <field name="code">21300</field>
             <field name="name">III. Reservas</field>
-            <field name="current_value">balance(112,113,114,119)</field>
-            <field name="previous_value">balance(112,113,114,119)</field>
+            <field name="current_value">balance(112,113,114,115,119)</field>
+            <field name="previous_value">balance(112,113,114,115,119)</field>
             <field name="parent" ref="es_balance_pymes_21000"/>
             <field name="visible" eval="True"/>
             <field name="sequence">BP2.1/07</field>
