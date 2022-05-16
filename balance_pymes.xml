@@ -42,6 +42,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BP1/01</field>
             <field name="css_class">l1</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_pymes_11100">
             <field name="template" ref="es_balance_pymes"/>
@@ -54,6 +55,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BP1/02</field>
             <field name="css_class">l3</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_pymes_11200">
             <field name="template" ref="es_balance_pymes"/>
@@ -66,6 +68,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BP1/03</field>
             <field name="css_class">l3</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_pymes_11300">
             <field name="template" ref="es_balance_pymes"/>
@@ -78,6 +81,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BP1/04</field>
             <field name="css_class">l3</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_pymes_11400">
             <field name="template" ref="es_balance_pymes"/>
@@ -90,6 +94,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BP1/05</field>
             <field name="css_class">l3</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_pymes_11500">
             <field name="template" ref="es_balance_pymes"/>
@@ -102,6 +107,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BP1/06</field>
             <field name="css_class">l3</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_pymes_11600">
             <field name="template" ref="es_balance_pymes"/>
@@ -114,6 +120,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BP1/07</field>
             <field name="css_class">l3</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_pymes_11700">
             <field name="template" ref="es_balance_pymes"/>
@@ -126,6 +133,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BP1/08</field>
             <field name="css_class">l3</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_pymes_12000">
             <field name="template" ref="es_balance_pymes"/>
@@ -136,6 +144,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BP1/09</field>
             <field name="css_class">l1</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_pymes_12200">
             <field name="template" ref="es_balance_pymes"/>
@@ -148,6 +157,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BP1/10</field>
             <field name="css_class">l3</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_pymes_12300">
             <field name="template" ref="es_balance_pymes"/>
@@ -159,6 +169,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BP1/11</field>
             <field name="css_class">l3</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_pymes_12380">
             <field name="template" ref="es_balance_pymes"/>
@@ -171,6 +182,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BP1/12</field>
             <field name="css_class">l4</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_pymes_12381">
             <field name="template" ref="es_balance_pymes"/>
@@ -182,6 +194,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BP1/13</field>
             <field name="css_class">l5</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_pymes_12382">
             <field name="template" ref="es_balance_pymes"/>
@@ -193,6 +206,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BP1/14</field>
             <field name="css_class">l5</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_pymes_12370">
             <field name="template" ref="es_balance_pymes"/>
@@ -205,6 +219,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BP1/15</field>
             <field name="css_class">l4</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_pymes_12390">
             <field name="template" ref="es_balance_pymes"/>
@@ -217,6 +232,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BP1/16</field>
             <field name="css_class">l4</field>
+            <field name="page_break" eval="False"/>
         </record>
 
         <record model="account.financial.statement.template.line" id="es_balance_pymes_12400">
@@ -230,6 +246,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BP1/17</field>
             <field name="css_class">l3</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_pymes_12500">
             <field name="template" ref="es_balance_pymes"/>
@@ -242,6 +259,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BP1/18</field>
             <field name="css_class">l3</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_pymes_12600">
             <field name="template" ref="es_balance_pymes"/>
@@ -254,6 +272,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BP1/19</field>
             <field name="css_class">l3</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_pymes_12700">
             <field name="template" ref="es_balance_pymes"/>
@@ -266,6 +285,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BP1/20</field>
             <field name="css_class">l3</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_pymes_10000">
             <field name="template" ref="es_balance_pymes"/>
@@ -276,6 +296,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BP1/21</field>
             <field name="css_class">l1</field>
+            <field name="page_break" eval="True"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_pymes_20000">
             <field name="template" ref="es_balance_pymes"/>
@@ -286,6 +307,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BP2.1/01</field>
             <field name="css_class">l1</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_pymes_21000">
             <field name="template" ref="es_balance_pymes"/>
@@ -297,6 +319,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BP2.1/02</field>
             <field name="css_class">l2</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_pymes_21100">
             <field name="template" ref="es_balance_pymes"/>
@@ -308,6 +331,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BP2.1/03</field>
             <field name="css_class">l3</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_pymes_21110">
             <field name="template" ref="es_balance_pymes"/>
@@ -319,6 +343,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BP2.1/04</field>
             <field name="css_class">l4</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_pymes_21120">
             <field name="template" ref="es_balance_pymes"/>
@@ -330,6 +355,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BP2.1/05</field>
             <field name="css_class">l4</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_pymes_21200">
             <field name="template" ref="es_balance_pymes"/>
@@ -341,6 +367,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BP2.1/06</field>
             <field name="css_class">l3</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_pymes_21300">
             <field name="template" ref="es_balance_pymes"/>
@@ -352,6 +379,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BP2.1/07</field>
             <field name="css_class">l3</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_pymes_21400">
             <field name="template" ref="es_balance_pymes"/>
@@ -363,6 +391,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BP2.1/08</field>
             <field name="css_class">l3</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_pymes_21500">
             <field name="template" ref="es_balance_pymes"/>
@@ -374,6 +403,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BP2.1/09</field>
             <field name="css_class">l3</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_pymes_21600">
             <field name="template" ref="es_balance_pymes"/>
@@ -385,6 +415,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BP2.1/10</field>
             <field name="css_class">l3</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_pymes_21700">
             <field name="template" ref="es_balance_pymes"/>
@@ -396,6 +427,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BP2.1/11</field>
             <field name="css_class">l3</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_pymes_21800">
             <field name="template" ref="es_balance_pymes"/>
@@ -407,6 +439,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BP2.1/12</field>
             <field name="css_class">l3</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_pymes_22000">
             <field name="template" ref="es_balance_pymes"/>
@@ -418,6 +451,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BP2.1/13</field>
             <field name="css_class">l2</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_pymes_23000">
             <field name="template" ref="es_balance_pymes"/>
@@ -429,6 +463,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BP2.1/14</field>
             <field name="css_class">l2</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_pymes_31000">
             <field name="template" ref="es_balance_pymes"/>
@@ -439,6 +474,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BP2.1/15</field>
             <field name="css_class">l1</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_pymes_31100">
             <field name="template" ref="es_balance_pymes"/>
@@ -450,6 +486,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BP2.1/16</field>
             <field name="css_class">l3</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_pymes_31200">
             <field name="template" ref="es_balance_pymes"/>
@@ -461,6 +498,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BP2.1/17</field>
             <field name="css_class">l3</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_pymes_31220">
             <field name="template" ref="es_balance_pymes"/>
@@ -472,6 +510,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BP2.1/18</field>
             <field name="css_class">l4</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_pymes_31230">
             <field name="template" ref="es_balance_pymes"/>
@@ -483,6 +522,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BP2.1/19</field>
             <field name="css_class">l4</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_pymes_31290">
             <field name="template" ref="es_balance_pymes"/>
@@ -494,6 +534,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BP2.1/20</field>
             <field name="css_class">l4</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_pymes_31300">
             <field name="template" ref="es_balance_pymes"/>
@@ -505,6 +546,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BP2.1/21</field>
             <field name="css_class">l3</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_pymes_31400">
             <field name="template" ref="es_balance_pymes"/>
@@ -516,6 +558,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BP2.1/22</field>
             <field name="css_class">l3</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_pymes_31500">
             <field name="template" ref="es_balance_pymes"/>
@@ -527,6 +570,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BP2.1/23</field>
             <field name="css_class">l3</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_pymes_31600">
             <field name="template" ref="es_balance_pymes"/>
@@ -538,6 +582,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BP2.1/24</field>
             <field name="css_class">l3</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_pymes_31700">
             <field name="template" ref="es_balance_pymes"/>
@@ -549,6 +594,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BP2.1/25</field>
             <field name="css_class">l3</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_pymes_32000">
             <field name="template" ref="es_balance_pymes"/>
@@ -559,6 +605,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BP2.2/01</field>
             <field name="css_class">l1</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_pymes_32200">
             <field name="template" ref="es_balance_pymes"/>
@@ -570,6 +617,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BP2.2/02</field>
             <field name="css_class">l3</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_pymes_32300">
             <field name="template" ref="es_balance_pymes"/>
@@ -581,6 +629,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BP2.2/03</field>
             <field name="css_class">l3</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_pymes_32320">
             <field name="template" ref="es_balance_pymes"/>
@@ -592,6 +641,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BP2.2/04</field>
             <field name="css_class">l4</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_pymes_32330">
             <field name="template" ref="es_balance_pymes"/>
@@ -603,6 +653,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BP2.2/05</field>
             <field name="css_class">l4</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_pymes_32390">
             <field name="template" ref="es_balance_pymes"/>
@@ -614,6 +665,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BP2.2/06</field>
             <field name="css_class">l4</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_pymes_32400">
             <field name="template" ref="es_balance_pymes"/>
@@ -625,6 +677,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BP2.2/07</field>
             <field name="css_class">l3</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_pymes_32500">
             <field name="template" ref="es_balance_pymes"/>
@@ -636,6 +689,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BP2.2/08</field>
             <field name="css_class">l3</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_pymes_32580">
             <field name="template" ref="es_balance_pymes"/>
@@ -647,6 +701,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BP2.2/09</field>
             <field name="css_class">l4</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_pymes_32581">
             <field name="template" ref="es_balance_pymes"/>
@@ -658,6 +713,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BP2.2/10</field>
             <field name="css_class">l5</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_pymes_32582">
             <field name="template" ref="es_balance_pymes"/>
@@ -669,6 +725,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BP2.2/11</field>
             <field name="css_class">l5</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_pymes_32590">
             <field name="template" ref="es_balance_pymes"/>
@@ -680,6 +737,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BP2.2/12</field>
             <field name="css_class">l4</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_pymes_32600">
             <field name="template" ref="es_balance_pymes"/>
@@ -691,6 +749,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BP2.2/13</field>
             <field name="css_class">l3</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_pymes_32700">
             <field name="template" ref="es_balance_pymes"/>
@@ -702,6 +761,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BP2.2/14</field>
             <field name="css_class">l3</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_pymes_30000">
             <field name="template" ref="es_balance_pymes"/>
@@ -712,6 +772,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BP2.2/15</field>
             <field name="css_class">l1</field>
+            <field name="page_break" eval="False"/>
         </record>
     </data>
 </tryton>
