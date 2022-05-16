@@ -39,6 +39,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BA1/01</field>
             <field name="css_class">l1</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_abreviado_11100">
             <field name="template" ref="es_balance_abreviado"/>
@@ -51,6 +52,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BA1/02</field>
             <field name="css_class">l3</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_abreviado_11200">
             <field name="template" ref="es_balance_abreviado"/>
@@ -63,6 +65,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BA1/03</field>
             <field name="css_class">l3</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_abreviado_11300">
             <field name="template" ref="es_balance_abreviado"/>
@@ -75,6 +78,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BA1/04</field>
             <field name="css_class">l3</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_abreviado_11400">
             <field name="template" ref="es_balance_abreviado"/>
@@ -87,6 +91,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BA1/05</field>
             <field name="css_class">l3</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_abreviado_11500">
             <field name="template" ref="es_balance_abreviado"/>
@@ -99,6 +104,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BA1/06</field>
             <field name="css_class">l3</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_abreviado_11600">
             <field name="template" ref="es_balance_abreviado"/>
@@ -111,6 +117,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BA1/07</field>
             <field name="css_class">l3</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_abreviado_11700">
             <field name="template" ref="es_balance_abreviado"/>
@@ -123,6 +130,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BA1/08</field>
             <field name="css_class">l3</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_abreviado_12000">
             <field name="template" ref="es_balance_abreviado"/>
@@ -133,6 +141,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BA1/09</field>
             <field name="css_class">l1</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_abreviado_12100">
             <field name="template" ref="es_balance_abreviado"/>
@@ -145,6 +154,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BA1/10</field>
             <field name="css_class">l3</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_abreviado_12200">
             <field name="template" ref="es_balance_abreviado"/>
@@ -157,6 +167,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BA1/11</field>
             <field name="css_class">l3</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_abreviado_12300">
             <field name="template" ref="es_balance_abreviado"/>
@@ -168,6 +179,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BA1/12</field>
             <field name="css_class">l3</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_abreviado_12380">
             <field name="template" ref="es_balance_abreviado"/>
@@ -180,6 +192,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BA1/13</field>
             <field name="css_class">l4</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_abreviado_12381">
             <field name="template" ref="es_balance_abreviado"/>
@@ -192,6 +205,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BA1/14</field>
             <field name="css_class">l5</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_abreviado_12382">
             <field name="template" ref="es_balance_abreviado"/>
@@ -204,6 +218,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BA1/15</field>
             <field name="css_class">l5</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_abreviado_12370">
             <field name="template" ref="es_balance_abreviado"/>
@@ -216,6 +231,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BA1/16</field>
             <field name="css_class">l4</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_abreviado_12390">
             <field name="template" ref="es_balance_abreviado"/>
@@ -228,6 +244,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BA1/17</field>
             <field name="css_class">l4</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_abreviado_12400">
             <field name="template" ref="es_balance_abreviado"/>
@@ -240,6 +257,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BA1/18</field>
             <field name="css_class">l3</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_abreviado_12500">
             <field name="template" ref="es_balance_abreviado"/>
@@ -252,6 +270,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BA1/19</field>
             <field name="css_class">l3</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_abreviado_12600">
             <field name="template" ref="es_balance_abreviado"/>
@@ -264,6 +283,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BA1/20</field>
             <field name="css_class">l3</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_abreviado_12700">
             <field name="template" ref="es_balance_abreviado"/>
@@ -276,6 +296,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BA1/21</field>
             <field name="css_class">l3</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_abreviado_10000">
             <field name="template" ref="es_balance_abreviado"/>
@@ -286,6 +307,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BA1/22</field>
             <field name="css_class">l1</field>
+            <field name="page_break" eval="True"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_abreviado_20000">
             <field name="template" ref="es_balance_abreviado"/>
@@ -296,6 +318,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BA2.1/01</field>
             <field name="css_class">l1</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_abreviado_21000">
             <field name="template" ref="es_balance_abreviado"/>
@@ -307,6 +330,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BA2.1/02</field>
             <field name="css_class">l2</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_abreviado_21100">
             <field name="template" ref="es_balance_abreviado"/>
@@ -318,6 +342,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BA2.1/03</field>
             <field name="css_class">l3</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_abreviado_21110">
             <field name="template" ref="es_balance_abreviado"/>
@@ -329,6 +354,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BA2.1/04</field>
             <field name="css_class">l4</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_abreviado_21120">
             <field name="template" ref="es_balance_abreviado"/>
@@ -340,6 +366,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BA2.1/05</field>
             <field name="css_class">l4</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_abreviado_21200">
             <field name="template" ref="es_balance_abreviado"/>
@@ -351,6 +378,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BA2.1/06</field>
             <field name="css_class">l3</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_abreviado_21300">
             <field name="template" ref="es_balance_abreviado"/>
@@ -362,6 +390,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BA2.1/07</field>
             <field name="css_class">l3</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_abreviado_21400">
             <field name="template" ref="es_balance_abreviado"/>
@@ -373,6 +402,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BA2.1/08</field>
             <field name="css_class">l3</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_abreviado_21500">
             <field name="template" ref="es_balance_abreviado"/>
@@ -384,6 +414,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BA2.1/09</field>
             <field name="css_class">l3</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_abreviado_21600">
             <field name="template" ref="es_balance_abreviado"/>
@@ -395,6 +426,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BA2.1/10</field>
             <field name="css_class">l3</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_abreviado_21700">
             <field name="template" ref="es_balance_abreviado"/>
@@ -406,6 +438,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BA2.1/11</field>
             <field name="css_class">l3</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_abreviado_21800">
             <field name="template" ref="es_balance_abreviado"/>
@@ -417,6 +450,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BA2.1/12</field>
             <field name="css_class">l3</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_abreviado_21900">
             <field name="template" ref="es_balance_abreviado"/>
@@ -428,6 +462,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BA2.1/13</field>
             <field name="css_class">l3</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_abreviado_22000">
             <field name="template" ref="es_balance_abreviado"/>
@@ -439,6 +474,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BA2.1/14</field>
             <field name="css_class">l2</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_abreviado_23000">
             <field name="template" ref="es_balance_abreviado"/>
@@ -450,6 +486,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BA2.1/15</field>
             <field name="css_class">l2</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_abreviado_31000">
             <field name="template" ref="es_balance_abreviado"/>
@@ -460,6 +497,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BA2.1/16</field>
             <field name="css_class">l1</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_abreviado_31100">
             <field name="template" ref="es_balance_abreviado"/>
@@ -471,6 +509,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BA2.1/17</field>
             <field name="css_class">l3</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_abreviado_31200">
             <field name="template" ref="es_balance_abreviado"/>
@@ -482,6 +521,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BA2.1/18</field>
             <field name="css_class">l3</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_abreviado_31220">
             <field name="template" ref="es_balance_abreviado"/>
@@ -493,6 +533,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BA2.1/19</field>
             <field name="css_class">l4</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_abreviado_31230">
             <field name="template" ref="es_balance_abreviado"/>
@@ -504,6 +545,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BA2.1/20</field>
             <field name="css_class">l4</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_abreviado_31290">
             <field name="template" ref="es_balance_abreviado"/>
@@ -515,6 +557,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BA2.1/21</field>
             <field name="css_class">l4</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_abreviado_31300">
             <field name="template" ref="es_balance_abreviado"/>
@@ -526,6 +569,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BA2.1/22</field>
             <field name="css_class">l3</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_abreviado_31400">
             <field name="template" ref="es_balance_abreviado"/>
@@ -537,6 +581,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BA2.1/23</field>
             <field name="css_class">l3</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_abreviado_31500">
             <field name="template" ref="es_balance_abreviado"/>
@@ -548,6 +593,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BA2.1/24</field>
             <field name="css_class">l3</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_abreviado_31600">
             <field name="template" ref="es_balance_abreviado"/>
@@ -559,6 +605,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BA2.1/25</field>
             <field name="css_class">l3</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_abreviado_31700">
             <field name="template" ref="es_balance_abreviado"/>
@@ -570,6 +617,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BA2.1/26</field>
             <field name="css_class">l3</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_abreviado_32000">
             <field name="template" ref="es_balance_abreviado"/>
@@ -580,6 +628,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BA2.2/01</field>
             <field name="css_class">l1</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_abreviado_32100">
             <field name="template" ref="es_balance_abreviado"/>
@@ -591,6 +640,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BA2.2/02</field>
             <field name="css_class">l3</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_abreviado_32200">
             <field name="template" ref="es_balance_abreviado"/>
@@ -602,6 +652,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BA2.2/03</field>
             <field name="css_class">l3</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_abreviado_32300">
             <field name="template" ref="es_balance_abreviado"/>
@@ -613,6 +664,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BA2.2/04</field>
             <field name="css_class">l3</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_abreviado_32320">
             <field name="template" ref="es_balance_abreviado"/>
@@ -624,6 +676,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BA2.2/05</field>
             <field name="css_class">l4</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_abreviado_32330">
             <field name="template" ref="es_balance_abreviado"/>
@@ -635,6 +688,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BA2.2/06</field>
             <field name="css_class">l4</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_abreviado_32390">
             <field name="template" ref="es_balance_abreviado"/>
@@ -646,6 +700,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BA2.2/07</field>
             <field name="css_class">l4</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_abreviado_32400">
             <field name="template" ref="es_balance_abreviado"/>
@@ -657,6 +712,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BA2.2/08</field>
             <field name="css_class">l3</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_abreviado_32500">
             <field name="template" ref="es_balance_abreviado"/>
@@ -668,6 +724,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BA2.2/09</field>
             <field name="css_class">l3</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_abreviado_32580">
             <field name="template" ref="es_balance_abreviado"/>
@@ -679,6 +736,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BA2.2/10</field>
             <field name="css_class">l4</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_abreviado_32581">
             <field name="template" ref="es_balance_abreviado"/>
@@ -690,6 +748,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BA2.2/11</field>
             <field name="css_class">l5</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_abreviado_32582">
             <field name="template" ref="es_balance_abreviado"/>
@@ -701,6 +760,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BA2.2/12</field>
             <field name="css_class">l5</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_abreviado_32590">
             <field name="template" ref="es_balance_abreviado"/>
@@ -712,6 +772,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BA2.2/13</field>
             <field name="css_class">l4</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_abreviado_32600">
             <field name="template" ref="es_balance_abreviado"/>
@@ -723,6 +784,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BA2.2/14</field>
             <field name="css_class">l3</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_abreviado_32700">
             <field name="template" ref="es_balance_abreviado"/>
@@ -734,6 +796,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BA2.2/15</field>
             <field name="css_class">l3</field>
+            <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_abreviado_30000">
             <field name="template" ref="es_balance_abreviado"/>
@@ -744,6 +807,7 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">BA2.2/16</field>
             <field name="css_class">l1</field>
+            <field name="page_break" eval="False"/>
         </record>
     </data>
 </tryton>
