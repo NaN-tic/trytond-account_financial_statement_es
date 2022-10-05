@@ -87,8 +87,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_pyg_pymes"/>
             <field name="code">40600</field>
             <field name="name">6. Gastos de personal</field>
-            <field name="current_value">invert(64)</field>
-            <field name="previous_value">invert(64)</field>
+            <field name="current_value">invert(64) + balance(7950,7957)</field>
+            <field name="previous_value">invert(64) + balance(7950,7957)</field>
             <field name="visible" eval="True"/>
             <field name="sequence">PP/06</field>
             <field name="css_class">l3</field>
@@ -117,8 +117,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_pyg_pymes"/>
             <field name="code">40900</field>
             <field name="name">9. Imputación de subvenciones de inmovilizado no financiero y otras</field>
-            <field name="current_value"></field>
-            <field name="previous_value"></field>
+            <field name="current_value">balance(746)</field>
+            <field name="previous_value">balance(746)</field>
             <field name="visible" eval="True"/>
             <field name="sequence">PP/09</field>
             <field name="css_class">l3</field>
@@ -127,8 +127,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_pyg_pymes"/>
             <field name="code">41000</field>
             <field name="name">10. Excesos de provisiones</field>
-            <field name="current_value">balance(7951,7952,7955)</field>
-            <field name="previous_value">balance(7951,7952,7955)</field>
+            <field name="current_value">balance(7951,7952,7955,7956)</field>
+            <field name="previous_value">balance(7951,7952,7955,7956)</field>
             <field name="visible" eval="True"/>
             <field name="sequence">PP/10</field>
             <field name="css_class">l3</field>
@@ -167,8 +167,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_pyg_pymes"/>
             <field name="code">41400</field>
             <field name="name">13. Ingresos financieros</field>
-            <field name="current_value"></field>
-            <field name="previous_value"></field>
+            <field name="current_value">balance(760,761,762,767,769)</field>
+            <field name="previous_value">balance(760,761,762,767,769)</field>
             <field name="visible" eval="True"/>
             <field name="sequence">PP/14</field>
             <field name="css_class">l3</field>

@@ -98,8 +98,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_balance_normal"/>
             <field name="code">11140</field>
             <field name="name">4. Fondo de comercio</field>
-            <field name="current_value">balance(204)</field>
-            <field name="previous_value">balance(204)</field>
+            <field name="current_value">balance(204) + invert(2804)</field>
+            <field name="previous_value">balance(204) + invert(2804)</field>
             <field name="negate" eval="True"/>
             <field name="parent" ref="es_balance_normal_11100"/>
             <field name="visible" eval="True"/>
@@ -175,8 +175,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_balance_normal"/>
             <field name="code">11220</field>
             <field name="name">2. Instalaciones técnicas y otro inmovilizado material</field>
-            <field name="current_value">balance(212,213,214,215,216,217,218,219) + invert(2810,2812,2813,2814,2815,2816,2817,2818,2819,2912,2913,2914,2915,2916,2917,2918,2919)</field>
-            <field name="previous_value">balance(212,213,214,215,216,217,218,219) + invert(2810,2812,2813,2814,2815,2816,2817,2818,2819,2912,2913,2914,2915,2916,2917,2918,2919)</field>
+            <field name="current_value">balance(212,213,214,215,216,217,218,219) + invert(2812,2813,2814,2815,2816,2817,2818,2819,2912,2913,2914,2915,2916,2917,2918,2919)</field>
+            <field name="previous_value">balance(212,213,214,215,216,217,218,219) + invert(2812,2813,2814,2815,2816,2817,2818,2819,2912,2913,2914,2915,2916,2917,2918,2919)</field>
             <field name="negate" eval="True"/>
             <field name="parent" ref="es_balance_normal_11200"/>
             <field name="visible" eval="True"/>
@@ -426,6 +426,17 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="css_class">l3</field>
             <field name="page_break" eval="False"/>
         </record>
+        <record model="account.financial.statement.template.line" id="es_balance_normal_12000">
+            <field name="template" ref="es_balance_normal"/>
+            <field name="code">12000</field>
+            <field name="name">B) ACTIVO CORRIENTE</field>
+            <field name="current_value"></field>
+            <field name="previous_value"></field>
+            <field name="visible" eval="True"/>
+            <field name="sequence">B1.2/01</field>
+            <field name="css_class">l1</field>
+            <field name="page_break" eval="False"/>
+        </record>
         <record model="account.financial.statement.template.line" id="es_balance_normal_11700">
             <field name="template" ref="es_balance_normal"/>
             <field name="code">11700</field>
@@ -437,17 +448,6 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="visible" eval="True"/>
             <field name="sequence">B1.1/31</field>
             <field name="css_class">l3</field>
-            <field name="page_break" eval="False"/>
-        </record>
-        <record model="account.financial.statement.template.line" id="es_balance_normal_12000">
-            <field name="template" ref="es_balance_normal"/>
-            <field name="code">12000</field>
-            <field name="name">B) ACTIVO CORRIENTE</field>
-            <field name="current_value"></field>
-            <field name="previous_value"></field>
-            <field name="visible" eval="True"/>
-            <field name="sequence">B1.2/01</field>
-            <field name="css_class">l1</field>
             <field name="page_break" eval="False"/>
         </record>
         <record model="account.financial.statement.template.line" id="es_balance_normal_12100">
@@ -673,8 +673,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_balance_normal"/>
             <field name="code">12330</field>
             <field name="name">3. Deudores varios</field>
-            <field name="current_value">balance(44,5531,5533)</field>
-            <field name="previous_value">balance(44,5531,5533)</field>
+            <field name="current_value">balance(44)</field>
+            <field name="previous_value">balance(44)</field>
             <field name="negate" eval="True"/>
             <field name="parent" ref="es_balance_normal_12300"/>
             <field name="visible" eval="True"/>
@@ -712,8 +712,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_balance_normal"/>
             <field name="code">12360</field>
             <field name="name">6. Otros créditos con las Administraciones Públicas</field>
-            <field name="current_value">balance(4700,4708,471,472,473)</field>
-            <field name="previous_value">balance(4700,4708,471,472,473)</field>
+            <field name="current_value">balance(4700,4708,471,472)</field>
+            <field name="previous_value">balance(4700,4708,471,472)</field>
             <field name="negate" eval="True"/>
             <field name="parent" ref="es_balance_normal_12300"/>
             <field name="visible" eval="True"/>
@@ -891,8 +891,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_balance_normal"/>
             <field name="code">12550</field>
             <field name="name">5. Otros activos financieros</field>
-            <field name="current_value">balance(5355,545,548) + debit(550,551,554,5525) + balance(565,566)</field>
-            <field name="previous_value">balance(5355,545,548) + debit(550,551,554,5525) + balance(565,566)</field>
+            <field name="current_value">balance(5355,545,548) + debit(551,554,5525) + balance(565,566)</field>
+            <field name="previous_value">balance(5355,545,548) + debit(551,554,5525) + balance(565,566)</field>
             <field name="negate" eval="True"/>
             <field name="parent" ref="es_balance_normal_12500"/>
             <field name="visible" eval="True"/>
@@ -1564,8 +1564,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_balance_normal"/>
             <field name="code">32350</field>
             <field name="name">5. Otros pasivos financieros</field>
-            <field name="current_value">invert(1034,1044,190,192) + balance(194,509,5115,5135,5145,521,522,523,525,526,528) + credit(550,551,554,5525) + balance(5530,5532,555,5565,5566,560,561,569)</field>
-            <field name="previous_value">invert(1034,1044,190,192) + balance(194,509,5115,5135,5145,521,522,523,525,526,528) + credit(550,551,554,5525) + balance(5530,5532,555,5565,5566,560,561,569)</field>
+            <field name="current_value">invert(1034,1044,190,192) + balance(194,509,5115,5135,5145,521,522,523,525,526,528) + credit(551,5525) + balance(555,5565,5566,560,561,569)</field>
+            <field name="previous_value">invert(1034,1044,190,192) + balance(194,509,5115,5135,5145,521,522,523,525,526,528) + credit(551,5525) + balance(555,5565,5566,560,561,569)</field>
             <field name="parent" ref="es_balance_normal_32300"/>
             <field name="visible" eval="True"/>
             <field name="sequence">B2.2/20</field>

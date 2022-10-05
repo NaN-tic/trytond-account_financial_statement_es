@@ -298,8 +298,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_pyg_normal"/>
             <field name="code">40900</field>
             <field name="name">9. Imputación de subvenciones de inmovilizado no financiero y otras</field>
-            <field name="current_value"></field>
-            <field name="previous_value"></field>
+            <field name="current_value">balance(746)</field>
+            <field name="previous_value">balance(746)</field>
             <field name="parent" ref="es_pyg_normal_a"/>
             <field name="visible" eval="True"/>
             <field name="sequence">P1.1/25</field>

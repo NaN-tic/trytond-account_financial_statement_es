@@ -115,8 +115,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_pyg_abreviado"/>
             <field name="code">40900</field>
             <field name="name">9. Imputación de subvenciones de inmovilizado no financiero y otras</field>
-            <field name="current_value"></field>
-            <field name="previous_value"></field>
+            <field name="current_value">balance(746)</field>
+            <field name="previous_value">balance(746)</field>
             <field name="visible" eval="True"/>
             <field name="sequence">PA/09</field>
             <field name="css_class">l3</field>
@@ -175,8 +175,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_pyg_abreviado"/>
             <field name="code">41400</field>
             <field name="name">14. Ingresos financieros</field>
-            <field name="current_value"></field>
-            <field name="previous_value"></field>
+            <field name="current_value">balance(760,761,762,767,769)</field>
+            <field name="previous_value">balance(760,761,762,767,769)</field>
             <field name="visible" eval="True"/>
             <field name="sequence">PA/15</field>
             <field name="css_class">l3</field>
