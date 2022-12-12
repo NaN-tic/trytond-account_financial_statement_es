@@ -252,8 +252,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_2021_balance_pymes"/>
             <field name="code">12500</field>
             <field name="name">IV. Inversiones financieras a corto plazo</field>
-            <field name="current_value">balance(5305,5315,5325,5335,5345,5355,540,541,542,543,545,546,547,548,5590,565,566) + invert(5395,549,5935,5945,5955,596,597,598) + debit(550,551,554,5525)</field>
-            <field name="previous_value">balance(5305,5315,5325,5335,5345,5355,540,541,542,543,545,546,547,548,5590,565,566) + invert(5395,549,5935,5945,5955,596,597,598) + debit(550,551,554,5525)</field>
+            <field name="current_value">balance(5305,5315,5325,5335,5345,5355,540,541,542,543,545,546,547,548,5590,565,566) + invert(5395,549,5935,5945,5955,596,597,598) + debit(551,5525)</field>
+            <field name="previous_value">balance(5305,5315,5325,5335,5345,5355,540,541,542,543,545,546,547,548,5590,565,566) + invert(5395,549,5935,5945,5955,596,597,598) + debit(551,5525)</field>
             <field name="negate" eval="True"/>
             <field name="parent" ref="es_2021_balance_pymes_12000"/>
             <field name="visible" eval="True"/>
@@ -373,8 +373,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_2021_balance_pymes"/>
             <field name="code">21300</field>
             <field name="name">III. Reservas</field>
-            <field name="current_value">balance(112,113,114,115,119)</field>
-            <field name="previous_value">balance(112,113,114,115,119)</field>
+            <field name="current_value">balance(112,113,114,119)</field>
+            <field name="previous_value">balance(112,113,114,119)</field>
             <field name="parent" ref="es_2021_balance_pymes_21000"/>
             <field name="visible" eval="True"/>
             <field name="sequence">BP2.1/07</field>
@@ -659,8 +659,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_2021_balance_pymes"/>
             <field name="code">32390</field>
             <field name="name">3. Otras deudas a corto plazo</field>
-            <field name="current_value">invert(1034,1044,190,192) + balance(194,500,505,506,509,5115,5135,5145,521,522,523,525,526,528,555,5565,5566,5595,560,561) + credit(550,551,554,5525)</field>
-            <field name="previous_value">invert(1034,1044,190,192) + balance(194,500,505,506,509,5115,5135,5145,521,522,523,525,526,528,555,5565,5566,5595,560,561) + credit(550,551,554,5525)</field>
+            <field name="current_value">invert(1034,1044,190,192) + balance(194,500,505,506,509,5115,5135,5145,521,522,523,555,5565,5566,5595,560,561) + credit(551,5525)</field>
+            <field name="previous_value">invert(1034,1044,190,192) + balance(194,500,505,506,509,5115,5135,5145,521,522,523,555,5565,5566,5595,560,561) + credit(551,5525)</field>
             <field name="parent" ref="es_2021_balance_pymes_32300"/>
             <field name="visible" eval="True"/>
             <field name="sequence">BP2.2/06</field>
