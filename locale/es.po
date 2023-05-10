@@ -1873,7 +1873,7 @@ msgid "A.3) RESULTADO ANTES DE IMPUESTOS (A.1 + A.2)"
 msgstr ""
 
 msgctxt ""
-"model:account.financial.statement.template.line,name:es_pyg_normal_49400 "
+"model:account.financial.statement.template.line,name:es_pyg_normal_49400"
 msgid ""
 "A.4) RESULTADO DEL EJERCICIO PROCEDENTE DE OPERACIONES CONTINUADAS (A.3 + "
 "19)"
