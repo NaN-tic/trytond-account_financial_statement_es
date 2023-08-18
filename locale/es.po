@@ -30,6 +30,34 @@ msgctxt "model:account.financial.statement.template,name:es_pyg_pymes"
 msgid "PÉRDIDAS Y GANANCIAS DE PYMES (PGCE 2008)"
 msgstr ""
 
+msgctxt "model:account.financial.statement.template,name:es_2021_balance_abreviado"
+msgid "BALANCE ABREVIADO (PGCE 2021)"
+msgstr ""
+
+msgctxt "model:account.financial.statement.template,name:es_2021_balance_normal"
+msgid "BALANCE NORMAL (PGCE 2021)"
+msgstr ""
+
+msgctxt "model:account.financial.statement.template,name:es_2021_balance_pymes"
+msgid "BALANCE PYMES (PGCE 2021)"
+msgstr ""
+
+msgctxt "model:account.financial.statement.template,name:es_2021_eiyg_normal"
+msgid "ESTADO DE INGRESOS Y GASTOS RECONOCIDOS NORMAL (PGCE 2021)"
+msgstr ""
+
+msgctxt "model:account.financial.statement.template,name:es_2021_pyg_abreviado"
+msgid "PÉRDIDAS Y GANANCIAS ABREVIADO (PGCE 2021)"
+msgstr ""
+
+msgctxt "model:account.financial.statement.template,name:es_2021_pyg_normal"
+msgid "PÉRDIDAS Y GANANCIAS NORMAL (PGCE 2021)"
+msgstr ""
+
+msgctxt "model:account.financial.statement.template,name:es_2021_pyg_pymes"
+msgid "PÉRDIDAS Y GANANCIAS DE PYMES (PGCE 2021)"
+msgstr ""
+
 msgctxt ""
 "model:account.financial.statement.template.line,name:es_balance_abreviado_10000"
 msgid "TOTAL ACTIVO (A + B)"
