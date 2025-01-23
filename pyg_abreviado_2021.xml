@@ -35,8 +35,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_pyg_abreviado"/>
             <field name="code">40100</field>
             <field name="name">1. Importe neto de la cifra de negocios</field>
-            <field name="current_value">balance(700,701,702,703,704,705) + invert(706,708,709)</field>
-            <field name="previous_value">balance(700,701,702,703,704,705) + invert(706,708,709)</field>
+            <field name="current_value">balance(700,701,702,703,704,705,706,708,709)</field>
+            <field name="previous_value">balance(700,701,702,703,704,705,706,708,709)</field>
             <field name="visible" eval="True"/>
             <field name="sequence">PA/01</field>
             <field name="css_class">l3</field>
@@ -45,8 +45,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_pyg_abreviado"/>
             <field name="code">40200</field>
             <field name="name">2. Variación de existencias de productos terminados y en curso de fabricación</field>
-            <field name="current_value">invert(6930) + balance("71*",7930)</field>
-            <field name="previous_value">invert(6930) + balance("71*",7930)</field>
+            <field name="current_value">balance(6930,"71*",7930)</field>
+            <field name="previous_value">balance(6930,"71*",7930)</field>
             <field name="visible" eval="True"/>
             <field name="sequence">PA/02</field>
             <field name="css_class">l3</field>
@@ -65,8 +65,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_pyg_abreviado"/>
             <field name="code">40400</field>
             <field name="name">4. Aprovisionamientos</field>
-            <field name="current_value">invert(600,601,602,607,6931,6932,6933) + balance(606,608,609,"61*",7931,7932,7933)</field>
-            <field name="previous_value">invert(600,601,602,607,6931,6932,6933) + balance(606,608,609,"61*",7931,7932,7933)</field>
+            <field name="current_value">balance(600,601,602,607,6931,6932,6933,606,608,609,"61*",7931,7932,7933)</field>
+            <field name="previous_value">balance(600,601,602,607,6931,6932,6933,606,608,609,"61*",7931,7932,7933)</field>
             <field name="visible" eval="True"/>
             <field name="sequence">PA/04</field>
             <field name="css_class">l3</field>
@@ -85,8 +85,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_pyg_abreviado"/>
             <field name="code">40600</field>
             <field name="name">6. Gastos de personal</field>
-            <field name="current_value">invert(64) + balance(7950,7957)</field>
-            <field name="previous_value">invert(64) + balance(7950,7957)</field>
+            <field name="current_value">balance(64,7950,7957)</field>
+            <field name="previous_value">balance(64,7950,7957)</field>
             <field name="visible" eval="True"/>
             <field name="sequence">PA/06</field>
             <field name="css_class">l3</field>
@@ -95,8 +95,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_pyg_abreviado"/>
             <field name="code">40700</field>
             <field name="name">7. Otros gastos de explotación</field>
-            <field name="current_value">invert(62,631,634,65,694,695) + balance(636,639,794,7954)</field>
-            <field name="previous_value">invert(62,631,634,65,694,695) + balance(636,639,794,7954)</field>
+            <field name="current_value">balance(62,631,634,65,694,695,636,639,794,7954)</field>
+            <field name="previous_value">balance(62,631,634,65,694,695,636,639,794,7954)</field>
             <field name="visible" eval="True"/>
             <field name="sequence">PA/07</field>
             <field name="css_class">l3</field>
@@ -105,8 +105,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_pyg_abreviado"/>
             <field name="code">40800</field>
             <field name="name">8. Amortización del inmovilizado</field>
-            <field name="current_value">invert(68)</field>
-            <field name="previous_value">invert(68)</field>
+            <field name="current_value">balance(68)</field>
+            <field name="previous_value">balance(68)</field>
             <field name="visible" eval="True"/>
             <field name="sequence">PA/08</field>
             <field name="css_class">l3</field>
@@ -135,8 +135,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_pyg_abreviado"/>
             <field name="code">41100</field>
             <field name="name">11. Deterioro y resultado por enajenaciones del inmovilizado</field>
-            <field name="current_value">invert(670,671,672,690,691,692) + balance(770,771,772,790,791,792)</field>
-            <field name="previous_value">invert(670,671,672,690,691,692) + balance(770,771,772,790,791,792)</field>
+            <field name="current_value">balance(670,671,672,690,691,692,770,771,772,790,791,792)</field>
+            <field name="previous_value">balance(670,671,672,690,691,692,770,771,772,790,791,792)</field>
             <field name="visible" eval="True"/>
             <field name="sequence">PA/11</field>
             <field name="css_class">l3</field>
@@ -155,8 +155,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_pyg_abreviado"/>
             <field name="code">41300</field>
             <field name="name">13. Otros resultados</field>
-            <field name="current_value">invert(678) + balance(778); (NECA 7.ª 9)</field>
-            <field name="previous_value">invert(678) + balance(778); (NECA 7.ª 9)</field>
+            <field name="current_value">balance(678,778); (NECA 7.ª 9)</field>
+            <field name="previous_value">balance(678,778); (NECA 7.ª 9)</field>
             <field name="visible" eval="True"/>
             <field name="sequence">PA/13</field>
             <field name="css_class">l3</field>
@@ -207,8 +207,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_pyg_abreviado"/>
             <field name="code">41500</field>
             <field name="name">15. Gastos financieros</field>
-            <field name="current_value">invert(660,661,662,664,665,669)</field>
-            <field name="previous_value">invert(660,661,662,664,665,669)</field>
+            <field name="current_value">balance(660,661,662,664,665,669)</field>
+            <field name="previous_value">balance(660,661,662,664,665,669)</field>
             <field name="visible" eval="True"/>
             <field name="sequence">PA/18</field>
             <field name="css_class">l3</field>
@@ -217,8 +217,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_pyg_abreviado"/>
             <field name="code">41600</field>
             <field name="name">16. Variación de valor razonable en instrumentos financieros</field>
-            <field name="current_value">invert(663) + balance(763)</field>
-            <field name="previous_value">invert(663) + balance(763)</field>
+            <field name="current_value">balance(663,763)</field>
+            <field name="previous_value">balance(663,763)</field>
             <field name="visible" eval="True"/>
             <field name="sequence">PA/19</field>
             <field name="css_class">l3</field>
@@ -227,8 +227,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_pyg_abreviado"/>
             <field name="code">41700</field>
             <field name="name">17. Diferencias de cambio</field>
-            <field name="current_value">invert(668) + balance(768)</field>
-            <field name="previous_value">invert(668) + balance(768)</field>
+            <field name="current_value">balance(668,768)</field>
+            <field name="previous_value">balance(668,768)</field>
             <field name="visible" eval="True"/>
             <field name="sequence">PA/20</field>
             <field name="css_class">l3</field>
@@ -237,8 +237,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_pyg_abreviado"/>
             <field name="code">41800</field>
             <field name="name">18. Deterioro y resultado por enajenaciones de instrumentos financieros</field>
-            <field name="current_value">invert(666,667,673,675,696,697,698,699) + balance(766,773,775,796,797,798,799)</field>
-            <field name="previous_value">invert(666,667,673,675,696,697,698,699) + balance(766,773,775,796,797,798,799)</field>
+            <field name="current_value">balance(666,667,673,675,696,697,698,699,766,773,775,796,797,798,799)</field>
+            <field name="previous_value">balance(666,667,673,675,696,697,698,699,766,773,775,796,797,798,799)</field>
             <field name="visible" eval="True"/>
             <field name="sequence">PA/21</field>
             <field name="css_class">l3</field>
@@ -267,8 +267,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_pyg_abreviado"/>
             <field name="code">41900</field>
             <field name="name">19. Impuestos sobre beneficios</field>
-            <field name="current_value">invert("6300*",633) + balance("6301*",638)</field>
-            <field name="previous_value">invert("6300*",633) + balance("6301*",638)</field>
+            <field name="current_value">balance("6300*",633,"6301*",638)</field>
+            <field name="previous_value">balance("6300*",633,"6301*",638)</field>
             <field name="visible" eval="True"/>
             <field name="sequence">PA/24</field>
             <field name="css_class">l3</field>
