@@ -1074,8 +1074,8 @@ http://www.mjusticia.gob.es/cs/Satellite/1292342988403?blobheader=application%2F
             <field name="template" ref="es_2021_balance_normal"/>
             <field name="code">21320</field>
             <field name="name">2. Otras reservas</field>
-            <field name="current_value">balance(113,1140,1142,1143,1144,115,119)</field>
-            <field name="previous_value">balance(113,1140,1142,1143,1144,115,119)</field>
+            <field name="current_value">balance(113,1140,1142,1143,1144,1146,1147,115,119)</field>
+            <field name="previous_value">balance(113,1140,1142,1143,1144,1146,1147,115,119)</field>
             <field name="parent" ref="es_2021_balance_normal_21300"/>
             <field name="visible" eval="True"/>
             <field name="sequence">B2.1/09</field>
