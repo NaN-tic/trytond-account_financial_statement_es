@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<tryton>
+    <data>
+        <record model="ir.ui.view" id="template_form">
+            <field name="model">account.financial.statement.template</field>
+            <field name="inherit" ref="account_financial_statement.template_form"/>
+            <field name="name">template_form</field>
+        </record>
+        <record model="ir.ui.view" id="template_tree">
+            <field name="model">account.financial.statement.template</field>
+            <field name="inherit" ref="account_financial_statement.template_tree"/>
+            <field name="name">template_tree</field>
+        </record>
+    </data>
+</tryton>
