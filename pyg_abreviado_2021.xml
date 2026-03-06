@@ -5,6 +5,7 @@
             <field name="name">PÉRDIDAS Y GANANCIAS ABREVIADO (PGCE 2021)</field>
             <field name="type">system</field>
             <field name="mode">credit-debit</field>
+            <field name="start_date">2021-01-01</field>
             <field name="description">
 Pérdidas y Ganancias Abreviado al cierre del ejercicio, según Plan General Contable Español para Pequeñas Y Medianas Empresas, para el depósito de cuentas anuales en el registro mercantil.
 

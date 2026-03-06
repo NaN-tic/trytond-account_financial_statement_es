@@ -6,6 +6,7 @@
             <field name="type">system</field>
             <field name="mode">credit-debit</field>
             <field name="cumulate" eval="True"/>
+            <field name="start_date">2021-01-01</field>
             <field name="description">
 Estado de Ingresos y Gastos Reconocidos Normal al cierre del ejercicio, según Plan General Contable Español para el depósito de cuentas anuales en el registro mercantil.
 
