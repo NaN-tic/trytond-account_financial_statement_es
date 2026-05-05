@@ -23,8 +23,8 @@ msgstr "ESTADO DE INGRESOS Y GASTOS RECONOCIDOS NORMAL (PGCE 2021)"
 
 msgctxt ""
 "model:account.financial.statement.template,name:es_2021_pyg_abreviado"
-msgid "PÉRDIDAS Y GANANCIAS ABREVIADO (PGCE 2008)"
-msgstr "PÉRDIDAS Y GANANCIAS ABREVIADO (PGCE 2008)"
+msgid "PÉRDIDAS Y GANANCIAS ABREVIADO (PGCE 2021)"
+msgstr "PÉRDIDAS Y GANANCIAS ABREVIADO (PGCE 2021)"
 
 msgctxt "model:account.financial.statement.template,name:es_2021_pyg_normal"
 msgid "PÉRDIDAS Y GANANCIAS NORMAL (PGCE 2021)"
@@ -51,8 +51,8 @@ msgid "ESTADO DE INGRESOS Y GASTOS RECONOCIDOS NORMAL (PGCE 2008)"
 msgstr "ESTADO DE INGRESOS Y GASTOS RECONOCIDOS NORMAL (PGCE 2008)"
 
 msgctxt "model:account.financial.statement.template,name:es_pyg_abreviado"
-msgid "PÉRDIDAS Y GANANCIAS ABREVIADO (PGCE 2021)"
-msgstr "PÉRDIDAS Y GANANCIAS ABREVIADO (PGCE 2021)"
+msgid "PÉRDIDAS Y GANANCIAS ABREVIADO (PGCE 2008)"
+msgstr "PÉRDIDAS Y GANANCIAS ABREVIADO (PGCE 2008)"
 
 msgctxt "model:account.financial.statement.template,name:es_pyg_normal"
 msgid "PÉRDIDAS Y GANANCIAS NORMAL (PGCE 2008)"
