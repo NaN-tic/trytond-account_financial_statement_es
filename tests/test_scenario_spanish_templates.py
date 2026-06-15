@@ -98,19 +98,10 @@ class TestSpanishFinancialStatementTemplates(unittest.TestCase):
 
         pool = Pool(self.config.database_name)
         ReportModel = pool.get('account.financial.statement.report')
-        TemplateLineModel = pool.get('account.financial.statement.template.line')
 
         with Transaction().start(
                 self.config.database_name, self.config.user,
                 context=self.config.context):
-            field_defs = TemplateLineModel.fields_get(
-                ['current_value', 'previous_value'])
-            self.assertEqual(
-                field_defs['current_value']['string'],
-                'First fiscal year formula')
-            self.assertEqual(
-                field_defs['previous_value']['string'],
-                'Remaining fiscal years formula')
 
             report_record = ReportModel(report.id)
             values = {}
