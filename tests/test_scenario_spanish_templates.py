@@ -1,6 +1,7 @@
 import unittest
 from datetime import date
 from decimal import Decimal
+from unittest.mock import patch
 
 from proteus import Model
 from trytond.modules.account.tests.tools import create_fiscalyear
@@ -94,7 +95,20 @@ class TestSpanishFinancialStatementTemplates(unittest.TestCase):
             period = report.comparison_periods.new()
             period.fiscalyear = fiscalyear
         report.save()
-        report.click('calculate')
+        pool = Pool(self.config.database_name)
+        ReportLine = pool.get('account.financial.statement.report.line.period')
+        with patch.object(ReportLine, '_get_credit_debit', autospec=True,
+                side_effect=ReportLine._get_credit_debit) as aggregate:
+            report.click('calculate')
+        self.assertEqual(aggregate.call_count, len(fiscalyears))
+
+        # A new calculation must read fresh entries instead of cached totals.
+        report.click('draft')
+        self.create_move(fiscalyears[0].periods[0], Decimal('25'))
+        with patch.object(ReportLine, '_get_credit_debit', autospec=True,
+                side_effect=ReportLine._get_credit_debit) as aggregate:
+            report.click('calculate')
+        self.assertEqual(aggregate.call_count, len(fiscalyears))
 
         pool = Pool(self.config.database_name)
         ReportModel = pool.get('account.financial.statement.report')
@@ -109,7 +123,7 @@ class TestSpanishFinancialStatementTemplates(unittest.TestCase):
                 result_line, = [line for line in period.lines if line.code == '49100']
                 values[period.fiscalyear.id] = result_line.value
             self.assertEqual(values, {
-                    fiscalyears[0].id: Decimal('100.00'),
+                    fiscalyears[0].id: Decimal('125.00'),
                     fiscalyears[1].id: Decimal('200.00'),
                     fiscalyears[2].id: Decimal('300.00'),
                     })
