@@ -97,10 +97,26 @@ class TestSpanishFinancialStatementTemplates(unittest.TestCase):
         report.save()
         pool = Pool(self.config.database_name)
         ReportLine = pool.get('account.financial.statement.report.line.period')
-        with patch.object(ReportLine, '_get_credit_debit', autospec=True,
-                side_effect=ReportLine._get_credit_debit) as aggregate:
+        AccountModel = pool.get('account.account')
+        Detail = pool.get('account.financial.statement.report.line.account.period')
+        with patch.object(AccountModel, 'search', wraps=AccountModel.search) as search, \
+                patch.object(Detail, 'create', wraps=Detail.create) as details, \
+                patch.object(ReportLine, '_get_credit_debit', autospec=True,
+                    side_effect=ReportLine._get_credit_debit) as aggregate:
             report.click('calculate')
         self.assertEqual(aggregate.call_count, len(fiscalyears))
+        self.assertEqual(details.call_count, len(fiscalyears))
+        snapshots = [call for call in search.call_args_list
+            if len(call.args[0]) == 1
+            and call.args[0][0][:2] == ('company', '=')]
+        self.assertEqual(len(snapshots), len(fiscalyears))
+        self.assertFalse([call for call in search.call_args_list
+                if 'child_of' in str(call.args[0])
+                or "'code', 'like'" in str(call.args[0])])
+        for call in aggregate.call_args_list:
+            selected_ids = {account.id for account in call.args[1]}
+            self.assertIn(self.revenue.id, selected_ids)
+            self.assertNotIn(self.receivable.id, selected_ids)
 
         # A new calculation must read fresh entries instead of cached totals.
         report.click('draft')
